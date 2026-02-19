@@ -1,0 +1,4480 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "restaurant",
+    "created": "2026-01-28"
+  },
+  "mounts": [
+    {
+      "alias": "VFX_Core",
+      "path": "shared3d/VFX/VFX_Core.stow"
+    },
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    }
+  ],
+  "root": {
+    "name": "restaurant",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "scene",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "visible": false,
+        "children": [
+          {
+            "name": "restaurant_display_level_0",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh"
+              }
+            ],
+            "visible": false
+          },
+          {
+            "name": "restaurant_display_level_2",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh"
+              }
+            ],
+            "visible": false
+          },
+          {
+            "name": "restaurant_display_level_9",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh"
+              }
+            ],
+            "visible": false
+          }
+        ]
+      },
+      {
+        "name": "table_station_0",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              3,
+              0,
+              0.14771176620064175
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "table_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "table_station_1",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              3,
+              0,
+              6.0940495422923044
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "table_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "table_station_2",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              3,
+              0,
+              12.286234851301423
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "table_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "table_station_3",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -9.5,
+              0,
+              7.187207577552538
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "table_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "table_station_4",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -9.5,
+              0,
+              13.14315893258123
+            ],
+            "rotation": [
+              -180,
+              90,
+              -180
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "table_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "table_station_5",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              12,
+              0,
+              -19.5
+            ],
+            "rotation": [
+              0,
+              -90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "table_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "table_station_6",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              20.637850202873494,
+              0,
+              -19.5
+            ],
+            "rotation": [
+              0,
+              -90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "table_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "table_station_7",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -20,
+              0,
+              5.891171767780207
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "table_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "table_station_8",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -20,
+              0,
+              12.900417748409264
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "table_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "table_station_9",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -33.5,
+              0,
+              14.511730537261322
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "table_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "table_station_10",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -33.5,
+              0,
+              7.5
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "table_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "table_station_11",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -20,
+              0,
+              -1.9028637141472906
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "table_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "table_station_12",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -20,
+              0,
+              -8.524928007506873
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "table_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "hr_station_0",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              16.44842839725201,
+              0,
+              26.029438921366182
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "hr_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "burger_station_1",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              23,
+              0,
+              3.4164893456824013
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "burger_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "burger_station_0",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              23,
+              0,
+              -6.811350196207814
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "burger_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "trash_station_0",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              11.220338204082903,
+              0,
+              7.426793504829101
+            ],
+            "rotation": [
+              -180,
+              90,
+              -180
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "trash_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "trash_station_1",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -41.757526664150355,
+              0,
+              11.559406530447895
+            ],
+            "rotation": [
+              0,
+              -90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "trash_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "upgrade_station_0",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              2.0898963562486736,
+              0,
+              25.9565721947137
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "upgrade_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "checkout_station_0",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              11.159412573300216,
+              0,
+              -5.805678454666101
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "checkout_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "checkout_station_1",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -29.39166084950021,
+              0,
+              -7.344653016359139
+            ],
+            "rotation": [
+              0,
+              -90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "checkout_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "self_checkout_station_0",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "self_checkout_station.stowprefab"
+          }
+        ],
+        "children": [
+          {
+            "name": "restaurant_display_upgrade_selfservice_01",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  10.989009272915748,
+                  0,
+                  8.148226817157157
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "bathroom_station_0",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -14,
+              0,
+              25.5
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "bathroom_station_small.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "bathroom_station_1",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -20.513998313253975,
+              0,
+              25.539342002192527
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "bathroom_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "shake_station_0",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -33.75694950452679,
+              0,
+              -0.2322916276612066
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "shake_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "shake_station_1",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -41.219272816579476,
+              0,
+              -0.10334052762504342
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "shake_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "drivethru_station_0",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              23.85067289716407,
+              0,
+              12.738741700254925
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "drivethru_station.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "upgrade_station_0_purchase_area",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -8.998852569876757,
+              0,
+              26.22785204634187
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              3.5,
+              0.2,
+              3.5
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "depthTest": true,
+            "wireframe": false
+          }
+        ]
+      },
+      {
+        "name": "hr_station_0_purchase_area",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              3.1342937419471673,
+              0,
+              26.774636787474858
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              3.5,
+              0.2,
+              3.5
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "depthTest": true,
+            "wireframe": false
+          }
+        ]
+      },
+      {
+        "name": "customer_line_burger",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "waypoint_0",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  8.434729553740382,
+                  0,
+                  -5.30586674324946
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_1",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  5.287077090713353,
+                  0,
+                  -5.2732902061731135
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_2",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  1.190060365696283,
+                  0,
+                  -5.6268220701234455
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_3",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -1.1599963649964078,
+                  0,
+                  -8.433332087802599
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_4",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -1.5849209125320733,
+                  0,
+                  -18.694173544960034
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_5",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -1.6121512451088282,
+                  0,
+                  -36.05499618798756
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "self_checkout_line_0",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "waypoint_0",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -8.401262107142731,
+                  0,
+                  -1.7333490689114477
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_1",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -9.542072397898043,
+                  0,
+                  -3.433299458246587
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_2",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -9.53383708382822,
+                  0,
+                  -8.292801602958228
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_3",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -9.273990763170996,
+                  0,
+                  -20.205183096611986
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_4",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -9.273990763170996,
+                  0,
+                  -36.45798331373686
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "depthTest": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "customer_line_shake",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "waypoint_0",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -27.53186734901928,
+                  0,
+                  -7.262028644487499
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_1",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -25.92174489586336,
+                  0,
+                  -8.019545935659336
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_2",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -25.738276358263604,
+                  0,
+                  -16.794371615889524
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_3",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -22.43389555329705,
+                  0,
+                  -18.06555813596544
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_4",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -18.27038124628242,
+                  0,
+                  -18.442483332158993
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_5",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -14.582245390240008,
+                  0,
+                  -18.44577703552588
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_6",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -13.690349873908824,
+                  0,
+                  -19.593719371388644
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_7",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -13.690349873908824,
+                  0,
+                  -23.57268646582921
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_8",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -13.690349873908824,
+                  0,
+                  -34.63588159492741
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "drivethru_line",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "waypoint_0",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  137.18322233782567,
+                  0,
+                  -45.155959391739344
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_1",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  53.030958925211806,
+                  0,
+                  -45.82113308452054
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_2",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  32.13184125623209,
+                  0,
+                  -43.72448439414934
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_3",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  28.000562606724607,
+                  0,
+                  -31.531022273903268
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_4",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  28.28680412792071,
+                  0,
+                  -18.20655068582673
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_5",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  28.156766300444872,
+                  0,
+                  22.59306810049665
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_6",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  28.423361491546835,
+                  0,
+                  31.259815336183486
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  27.213242963534597,
+                  0,
+                  37.29637343964179
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_01",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  18.919359765462143,
+                  0,
+                  39.402856995270476
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_02",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -10.094894456619645,
+                  0,
+                  37.226847993613276
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_03",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -38.778930056774875,
+                  0,
+                  37.58991710913543
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_04",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -46.331857969599085,
+                  0,
+                  35.831411742261864
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_05",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -48.450061167640854,
+                  0,
+                  27.15175210868211
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_06",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -47.87175456924615,
+                  0,
+                  0.5889708247816046
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_07",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -47.929782850481985,
+                  0,
+                  -27.03903238676046
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_08",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -48.52766183627456,
+                  0,
+                  -38.73481600972923
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_09",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -55.79961309306624,
+                  0,
+                  -45.54849515280991
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_10",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -81.73745393766649,
+                  0,
+                  -44.89509803972006
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_11",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -130.1861721788477,
+                  0,
+                  -45.471923254909335
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "customer_spawn_positions_burger",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "spawn_0",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  13.388522798188559,
+                  0,
+                  -58.2294859000248
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "spawn_1",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -24.360911376639727,
+                  0,
+                  -58.01904264604798
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "customer_spawn_positions_burger_initial",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "spawn_0",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0.2902789117098976,
+                  0,
+                  -54.187792628435545
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "spawn_1",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -7.126403034431675,
+                  0,
+                  -55.015571097385724
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "environment_1",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "environment_1.stowprefab"
+          }
+        ],
+        "visible": false
+      },
+      {
+        "name": "environment_2",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "environment_2.stowprefab"
+          }
+        ],
+        "visible": false
+      },
+      {
+        "name": "environment_3",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "environment_3.stowprefab"
+          }
+        ],
+        "visible": false
+      },
+      {
+        "name": "environment_4",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "environment_4.stowprefab"
+          }
+        ],
+        "visible": false
+      },
+      {
+        "name": "environment_5",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "environment_5.stowprefab"
+          }
+        ],
+        "visible": false
+      },
+      {
+        "name": "environment_6",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "environment_6.stowprefab"
+          }
+        ],
+        "visible": false
+      },
+      {
+        "name": "customer_line_bathroom_0",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "waypoint_0",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -10.773310185086302,
+                  0,
+                  22.336942896430465
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_1",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -10.325188390728192,
+                  0,
+                  18.74069210124237
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_2",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -6.644067518366873,
+                  0,
+                  16.9196137720406
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_3",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -3.073972635106923,
+                  0,
+                  17.132099399719557
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_4",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0.1540175017946952,
+                  0,
+                  17.140360381408044
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "title_camera_position",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -28,
+              28,
+              -40
+            ],
+            "rotation": [
+              -38,
+              -150,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "depthTest": false
+          }
+        ]
+      },
+      {
+        "name": "new_environment_3",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "new_environment_3.stowprefab"
+          }
+        ],
+        "children": [
+          {
+            "name": "restaurant_display_door_shakesl",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh"
+              }
+            ]
+          },
+          {
+            "name": "restaurant_display_door_shakesr",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh"
+              }
+            ]
+          },
+          {
+            "name": "restaurant_display_door_selfsevicel",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh"
+              }
+            ]
+          },
+          {
+            "name": "restaurant_display_door_selfsevicer",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh"
+              }
+            ]
+          },
+          {
+            "name": "restaurant_display_upgrade_selfservice",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "shared_environment",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "shared_environment.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "customer_line_bathroom_1",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "waypoint_0",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -24.397927997820403,
+                  0,
+                  22.336942896430465
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_1",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -24.197461721372996,
+                  0,
+                  18.74069210124237
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_2",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -26.26839081284583,
+                  0,
+                  16.9196137720406
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_3",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -30.03363903522988,
+                  0,
+                  17.132099399719557
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          },
+          {
+            "name": "waypoint_4",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -35.071998520861726,
+                  0,
+                  17.448965375337867
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  0.5,
+                  1,
+                  0.5,
+                  0.5
+                ],
+                "depthTest": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "expansion_1",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -9.391483377417622,
+              0,
+              1.6330830669013263
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "depthTest": false
+          }
+        ]
+      },
+      {
+        "name": "expansion_2",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -9.391483377417622,
+              0,
+              11.629754434402617
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "depthTest": false
+          }
+        ]
+      },
+      {
+        "name": "bathroom_purchase_area",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -10.319276600928085,
+              0,
+              27.221690111458273
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "depthTest": false
+          }
+        ]
+      },
+      {
+        "name": "patio",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "patio.stowprefab"
+          }
+        ]
+      },
+      {
+        "name": "exhaust_fan",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              24.829507559222822,
+              3.6829413604633356,
+              -1.3951479203878328
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Prop_Base_ExhaustFan"
+            }
+          }
+        ]
+      },
+      {
+        "name": "new_environment_2",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "new_environment_2.stowprefab"
+          }
+        ],
+        "visible": false
+      },
+      {
+        "name": "new_environment_1",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "new_environment_1.stowprefab"
+          }
+        ],
+        "visible": false
+      },
+      {
+        "name": "pickup_spawn_positions",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "lvl_1",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "children": [
+              {
+                "name": "spawn_00",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      17.400557720132877,
+                      0,
+                      -10.389626461717192
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              },
+              {
+                "name": "spawn_01",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      8.698216533295943,
+                      0,
+                      2.4774451754729307
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              },
+              {
+                "name": "spawn_02",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      -3.0834156636129046,
+                      0,
+                      9.623602761639837
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              },
+              {
+                "name": "spawn_03",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      -5.53910856184893,
+                      0,
+                      -7.84441369064054
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "lvl_2",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "children": [
+              {
+                "name": "spawn_00",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      17.400557720132877,
+                      0,
+                      -10.389626461717192
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              },
+              {
+                "name": "spawn_01",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      8.601759983230526,
+                      0,
+                      2.2635491740089675
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              },
+              {
+                "name": "spawn_02",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      -3.0834156636129046,
+                      0,
+                      9.623602761639837
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              },
+              {
+                "name": "spawn_03",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      -5.53910856184893,
+                      0,
+                      -7.84441369064054
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "lvl_3",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "children": [
+              {
+                "name": "spawn_00",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      17.400557720132877,
+                      0,
+                      -10.389626461717192
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              },
+              {
+                "name": "spawn_01",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      8.714529663648534,
+                      0,
+                      2.270495821212965
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              },
+              {
+                "name": "spawn_02",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      -3.0834156636129046,
+                      0,
+                      9.623602761639837
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              },
+              {
+                "name": "spawn_03",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      -5.53910856184893,
+                      0,
+                      -7.84441369064054
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              },
+              {
+                "name": "spawn_04",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      -14.710260228055127,
+                      0,
+                      -5.325662308818463
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              },
+              {
+                "name": "spawn_05",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      -26.309187131007608,
+                      0,
+                      9.74978940957165
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              },
+              {
+                "name": "spawn_06",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      -36.5620934877391,
+                      0,
+                      -5.751260599161231
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              },
+              {
+                "name": "spawn_07",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      -21.840131412168493,
+                      0,
+                      -13.431147832673778
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "vip_order_spots",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "lvl_1",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "children": [
+              {
+                "name": "spawn_00",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      5.934894971023147,
+                      0,
+                      -10.756375701581902
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "lvl_2",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "children": [
+              {
+                "name": "spawn_00",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      6.305236338485701,
+                      0,
+                      -10.794175675260405
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "lvl_3",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "children": [
+              {
+                "name": "spawn_00",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      6.375714559798499,
+                      0,
+                      -10.606711215531094
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              },
+              {
+                "name": "spawn_01",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      -25.651778087838338,
+                      0,
+                      -3.1479438309961036
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "sphere",
+                    "color": [
+                      0.5,
+                      1,
+                      0.5,
+                      0.5
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

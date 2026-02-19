@@ -1,0 +1,587 @@
+/**
+ * Burger Shop UI Components
+ * Centralized CSS styling for consistent UI elements
+ */
+
+/* Container and Layout */
+.burger-shop-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Legacy class name for compatibility */
+.burger-shop-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.burger-shop-container {
+  background: #5A9FD4;
+  border-radius: 25px;
+  box-shadow: 0 5px 0 #4A7BA7, 0 10px 20px rgba(0, 0, 0, 0.2);
+  font-family: var(--game-font);
+  font-weight: 600;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 800px;
+  max-height: 600px;
+  padding: 20px;
+  padding-bottom: 24px;
+  overflow: visible;
+}
+
+.burger-shop-container--modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10001;
+}
+
+/* Typography */
+.burger-shop-title {
+  margin: 0 0 8px 0;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: var(--game-font);
+  text-align: center;
+}
+
+.burger-shop-title--large {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.burger-shop-subtitle {
+  margin: 0 0 16px 0;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  font-family: var(--game-font);
+  line-height: 1.3;
+  text-align: center;
+}
+
+/* Close Button */
+.burger-shop-close-button {
+  background: #FF6B6B;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  font-family: var(--game-font);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 0 #C0392B;
+  border: none;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  transform-origin: center;
+}
+
+.burger-shop-close-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 0 #C0392B, 0 10px 20px rgba(255, 107, 107, 0.4);
+}
+
+.burger-shop-close-button:active {
+  transform: scale(0.9);
+  box-shadow: 0 2px 0 #C0392B;
+}
+
+/* Content Areas */
+.burger-shop-content-area {
+  width: 100%;
+  overflow-y: auto;
+  max-height: 500px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.burger-shop-header {
+  text-align: center;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+/* Buttons */
+.burger-shop-button {
+  background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 70px;
+  justify-content: center;
+  box-shadow: 0 4px 0 #16a34a;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  font-family: var(--game-font);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  border: none;
+  transform-origin: center;
+}
+
+.burger-shop-button:hover {
+  transform: scale(1.05) translateY(-1px);
+  box-shadow: 0 6px 0 #16a34a, 0 8px 15px rgba(34, 197, 94, 0.3);
+}
+
+.burger-shop-button:active {
+  transform: scale(0.95) translateY(1px);
+  box-shadow: 0 2px 0 #16a34a;
+}
+
+.burger-shop-button--disabled {
+  background: #95A5A6;
+  color: white;
+  cursor: not-allowed;
+  box-shadow: 0 3px 0 #7F8C8D;
+}
+
+.burger-shop-button--disabled:hover,
+.burger-shop-button--disabled:active {
+  transform: none;
+  box-shadow: 0 3px 0 #7F8C8D;
+}
+
+/* Empty State */
+.burger-shop-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+  flex: 1;
+}
+
+.burger-shop-empty-state__icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+  opacity: 0.7;
+}
+
+.burger-shop-empty-state__title {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  font-family: var(--game-font);
+}
+
+.burger-shop-empty-state__text {
+  margin: 0 0 20px 0;
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 1.4;
+  color: white;
+}
+
+/* Items Grid */
+.burger-shop-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.burger-shop-items-grid--single {
+  grid-template-columns: 1fr;
+  max-width: 100%;
+  margin: 0;
+}
+
+.burger-shop-items-grid--double {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+/* Debug/Utility Buttons */
+.burger-shop-debug-button {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 0 #047857, 0 4px 8px rgba(16, 185, 129, 0.2);
+  font-family: var(--game-font);
+}
+
+.burger-shop-debug-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 0 #047857, 0 6px 12px rgba(16, 185, 129, 0.3);
+}
+
+.burger-shop-debug-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 0 #047857, 0 4px 8px rgba(16, 185, 129, 0.2);
+}
+
+/* Animations */
+@keyframes burger-shop-fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.burger-shop-fade-in {
+  animation: burger-shop-fade-in 0.2s ease-out;
+}
+
+/* Content Panel Styles */
+.burger-shop-content-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+/* Upgrade Row Specific Styles */
+.burger-shop-content-area > div > div:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Secondary Button (Ad/Alternative Action) */
+.burger-shop-button--secondary {
+  background: linear-gradient(135deg, #9333ea 0%, #7c3aed 100%);
+  box-shadow: 0 4px 0 #5b21b6;
+}
+
+.burger-shop-button--secondary:hover {
+  transform: scale(1.05) translateY(-1px);
+  box-shadow: 0 6px 0 #5b21b6, 0 8px 15px rgba(147, 51, 234, 0.3);
+}
+
+.burger-shop-button--secondary:active {
+  transform: scale(0.95) translateY(1px);
+  box-shadow: 0 2px 0 #5b21b6;
+}
+
+/* Bottom Panel Styles (Non-blocking upgrade panel) */
+/* Uses transform: scale(--ui-scale) on the content for Unity-style Canvas Scaler behavior */
+.burger-shop-bottom-panel {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  padding: 0;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+}
+
+.burger-shop-bottom-panel-content {
+  background: #5A9FD4;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -5px 0 #4A7BA7, 0 -10px 30px rgba(0, 0, 0, 0.25);
+  font-family: var(--game-font);
+  font-weight: 600;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 14px 20px 18px;
+  pointer-events: auto;
+  max-width: 800px;
+  /* Unity-style Canvas Scaler: scale entire panel based on screen width */
+  transform: scale(var(--ui-scale, 1));
+  transform-origin: bottom center;
+  animation: burger-shop-slide-up 0.3s ease-out;
+}
+
+@keyframes burger-shop-slide-up {
+  from {
+    transform: scale(var(--ui-scale, 1)) translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: scale(var(--ui-scale, 1)) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes burger-shop-slide-down {
+  from {
+    transform: scale(var(--ui-scale, 1)) translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(var(--ui-scale, 1)) translateY(100%);
+    opacity: 0;
+  }
+}
+
+.burger-shop-bottom-panel-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.burger-shop-bottom-panel-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: var(--game-font);
+  margin: 0;
+  text-align: center;
+}
+
+.burger-shop-bottom-panel-upgrades {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+/* Compact Upgrade Card for Bottom Panel */
+.burger-shop-upgrade-card {
+  background: #C8E6F5;
+  border-radius: 14px;
+  padding: 12px 14px;
+  box-shadow: 0 5px 0 #A8C8E1, 0 8px 12px rgba(0, 0, 0, 0.12);
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.burger-shop-upgrade-card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.burger-shop-upgrade-card-label {
+  font-size: 20px;
+  font-weight: 700;
+  color: #374151;
+  font-family: var(--game-font);
+  text-shadow: none;
+  line-height: 1.2;
+}
+
+.burger-shop-upgrade-card-level {
+  font-size: 17px;
+  color: #9B59B6;
+  font-weight: 700;
+  font-family: var(--game-font);
+  text-shadow: none;
+  line-height: 1.1;
+}
+
+.burger-shop-upgrade-card-desc {
+  font-size: 15px;
+  color: #6B7280;
+  font-weight: 600;
+  font-family: var(--game-font);
+  text-shadow: none;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.burger-shop-upgrade-card-levelup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+
+.burger-shop-upgrade-card-levelup {
+  font-size: 14px;
+  color: #374151;
+  font-weight: 700;
+  font-family: var(--game-font);
+  text-shadow: none;
+  text-align: left;
+  margin: 0;
+}
+
+.burger-shop-upgrade-card-benefit {
+  font-size: 14px;
+  color: #6B7280;
+  font-weight: 600;
+  font-family: var(--game-font);
+  text-shadow: none;
+  text-align: left;
+  margin: 0;
+}
+
+/* Money icon for upgrade buttons */
+.burger-shop-upgrade-card-money-icon {
+  width: 22px;
+  height: 22px;
+  background-image: url('/assets/cozy_game_general/money_icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  flex-shrink: 0;
+  filter: brightness(1.1) drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.3));
+}
+
+.burger-shop-upgrade-card-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 0;
+}
+
+.burger-shop-upgrade-card-btn {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-family: var(--game-font);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  border: none;
+  transition: all 0.2s ease;
+  color: white;
+  white-space: nowrap;
+}
+
+.burger-shop-upgrade-card-btn-icon {
+  font-size: 20px;
+}
+
+.burger-shop-upgrade-card-btn--ad {
+  background: #9B59B6;
+  box-shadow: 0 3px 0 #8E44AD;
+}
+
+.burger-shop-upgrade-card-btn--ad:hover:not(:disabled) {
+  transform: scale(1.05);
+  box-shadow: 0 4px 0 #8E44AD;
+}
+
+.burger-shop-upgrade-card-btn--ad:active:not(:disabled) {
+  transform: scale(0.95);
+  box-shadow: 0 1px 0 #8E44AD;
+}
+
+.burger-shop-upgrade-card-btn--money {
+  background: #FF6B35;
+  box-shadow: 0 3px 0 #E55A2B;
+}
+
+.burger-shop-upgrade-card-btn--money:hover:not(:disabled) {
+  transform: scale(1.05);
+  box-shadow: 0 4px 0 #E55A2B;
+}
+
+.burger-shop-upgrade-card-btn--money:active:not(:disabled) {
+  transform: scale(0.95);
+  box-shadow: 0 1px 0 #E55A2B;
+}
+
+.burger-shop-upgrade-card-btn--free {
+  background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+  box-shadow: 0 3px 0 #16a34a;
+}
+
+.burger-shop-upgrade-card-btn--free:hover:not(:disabled) {
+  transform: scale(1.05);
+  box-shadow: 0 4px 0 #16a34a;
+}
+
+.burger-shop-upgrade-card-btn--free:active:not(:disabled) {
+  transform: scale(0.95);
+  box-shadow: 0 1px 0 #16a34a;
+}
+
+.burger-shop-upgrade-card-btn--maxed {
+  background: #95A5A6;
+  box-shadow: 0 2px 0 #7F8C8D;
+  cursor: not-allowed;
+  flex: 1;
+}
+
+.burger-shop-upgrade-card-maxed {
+  font-size: 16px;
+  font-weight: 700;
+  color: #374151;
+  font-family: var(--game-font);
+  text-align: center;
+  text-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 20px 0;
+}
+
+.burger-shop-upgrade-card-btn:disabled {
+  background: #95A5A6;
+  box-shadow: 0 2px 0 #7F8C8D;
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+/* Responsive adjustments for non-scaled elements */
+/* Note: Bottom panel scaling is handled by transform: scale(--ui-scale) */
+@media (max-width: 768px) {
+  .burger-shop-container {
+    padding: 16px;
+    padding-bottom: 20px;
+    margin: 0px;
+  }
+  
+  .burger-shop-title--large {
+    font-size: 24px;
+  }
+  
+  .burger-shop-items-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}

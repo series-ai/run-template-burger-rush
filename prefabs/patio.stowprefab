@@ -1,0 +1,497 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "patio",
+    "created": "2026-01-27"
+  },
+  "mounts": [
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    }
+  ],
+  "root": {
+    "name": "patio",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "purchase_area",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              16.839920959006598,
+              0,
+              -18.06336979628654
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "depthTest": false
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_base_outerwall_front",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Base_OuterWall_Front"
+            }
+          }
+        ],
+        "children": [
+          {
+            "name": "collider",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  15.906271995388327,
+                  0,
+                  -14.513948546767296
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  18,
+                  2,
+                  1
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_upgrade_patio",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Upgrade_Patio"
+            }
+          }
+        ],
+        "children": [
+          {
+            "name": "collider",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  10.667827901989117,
+                  0,
+                  -22.78651774760816
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  7,
+                  2,
+                  1
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "collider_01",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  21.313893052295086,
+                  0,
+                  -22.78651774760816
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  8,
+                  2,
+                  1
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "collider_02",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  24.902061037154766,
+                  0,
+                  -19.070789277306798
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  1,
+                  2,
+                  8
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "collider_03",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  7.024928528989174,
+                  0,
+                  -21.86602041886218
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  1,
+                  2,
+                  2
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "collider_04",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  7.024928528989174,
+                  0,
+                  -16.029317160113465
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  1,
+                  2,
+                  3
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "collider_05",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  12.337897067309699,
+                  0,
+                  -14.457272103536244
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  3,
+                  2,
+                  1
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "collider_06",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  23.43285749351374,
+                  0,
+                  -14.457272103536244
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  3,
+                  2,
+                  1
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

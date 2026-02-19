@@ -1,0 +1,259 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "checkout_station",
+    "created": "2026-01-24"
+  },
+  "mounts": [
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    },
+    {
+      "alias": "VFX_Core",
+      "path": "shared3d/VFX/VFX_Core.stow"
+    }
+  ],
+  "root": {
+    "name": "checkout_station",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "checkout_station_display",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "restaurant_display_checkout",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  90,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh",
+                "mesh": {
+                  "pack": "core",
+                  "assetId": "restaurant_display_Prop_Shakes_Counter"
+                }
+              },
+              {
+                "type": "mesh_collider",
+                "colliderType": "bounding_box"
+              }
+            ]
+          },
+          {
+            "name": "coin_vfx_position",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  1.302733608962891,
+                  2.1803867605185556,
+                  0.3002371537025157
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  0.1,
+                  0.1,
+                  0.1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  1,
+                  0.5,
+                  0.5,
+                  1
+                ],
+                "depthTest": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "purchase_area",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              3.5,
+              0.2,
+              6
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "depthTest": true,
+            "wireframe": false
+          }
+        ]
+      },
+      {
+        "name": "stack_position",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -1.3340345620569611,
+              1.449321774780091,
+              0.0009650070235011077
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              1,
+              0.5,
+              0.5,
+              1
+            ],
+            "depthTest": false
+          }
+        ]
+      },
+      {
+        "name": "dropoff_box",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -1.7341147667704964,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              4.5,
+              0.2,
+              4.5
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "depthTest": true,
+            "wireframe": false,
+            "isCollider": false
+          }
+        ]
+      }
+    ]
+  }
+}

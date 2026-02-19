@@ -1,0 +1,521 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "environment_3",
+    "created": "2025-11-20"
+  },
+  "mounts": [
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    }
+  ],
+  "root": {
+    "name": "environment_3",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "restaurant_display_level_3",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Level_3"
+            }
+          }
+        ],
+        "children": [
+          {
+            "name": "wall_01",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  13.084498407967208,
+                  0,
+                  -14.873959393792566
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  23,
+                  2,
+                  0.5
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "wall_02",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -4.276592560407028,
+                  0,
+                  -14.873959393792566
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  2,
+                  2,
+                  0.5
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "wall_03",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  24.963261994521538,
+                  0,
+                  1.962449058690252
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  0.5,
+                  2,
+                  34
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "wall_04",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  9.252945637557286,
+                  0,
+                  25.701324042069952
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  0.5,
+                  2,
+                  13
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "wall_05",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -2.7478564984144374,
+                  0,
+                  32.370256635092375
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  25,
+                  2,
+                  0.5
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "wall_06",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -12.76675709281549,
+                  0,
+                  19.04902170942588
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  5,
+                  2,
+                  0.5
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "wall_07",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -2.8605513741227404,
+                  0,
+                  19.04902170942588
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  9,
+                  2,
+                  0.5
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "wall_08",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  14.840838444606431,
+                  0,
+                  19.04902170942588
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  20.5,
+                  2,
+                  0.5
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "wall_09",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -14.993459159971188,
+                  0,
+                  8.632988553466777
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  0.5,
+                  2,
+                  48
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "wall_10",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -3.0898542243012805,
+                  0,
+                  25.701324042069952
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  0.5,
+                  2,
+                  13
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

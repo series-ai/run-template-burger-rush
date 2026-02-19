@@ -1,0 +1,226 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "bathroom_stall",
+    "created": "2026-01-21"
+  },
+  "mounts": [
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    },
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    }
+  ],
+  "root": {
+    "name": "bathroom_stall",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "dirty",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -0.4186213168356448,
+              0,
+              3.744145367870928e-17
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Prop_Bathroom_Stall_Dirty"
+            }
+          }
+        ],
+        "visible": false
+      },
+      {
+        "name": "clean",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -0.4208224360461407,
+              0,
+              -1.7580950907061083e-17
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Prop_Bathroom_Stall"
+            }
+          }
+        ]
+      },
+      {
+        "name": "doorpivot",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -1.0944806477507507,
+              0,
+              -2.363388200260161
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              -1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "door",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  2.2098975976265876,
+                  0,
+                  1.5076948715191696
+                ],
+                "rotation": [
+                  0,
+                  90,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh",
+                "mesh": {
+                  "pack": "core",
+                  "assetId": "restaurant_display_Prop_Bathroom_StallDoor"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "trash_pickup_area",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              2.220446049250314e-16,
+              0,
+              -2.9999999999999996
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              2,
+              0.2,
+              4
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "depthTest": true,
+            "wireframe": false
+          }
+        ]
+      },
+      {
+        "name": "seat_pos",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -0.03062421866883797,
+              1.171763945532976,
+              0.7279129587347536
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

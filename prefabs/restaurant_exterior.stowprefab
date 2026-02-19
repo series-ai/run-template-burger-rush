@@ -1,0 +1,373 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "restaurant_exterior",
+    "created": "2026-01-29"
+  },
+  "mounts": [
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    }
+  ],
+  "root": {
+    "name": "restaurant_exterior",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "restaurant_display_store_groundsign",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Store_GroundSign"
+            }
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_store_exterior",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Store_Exterior"
+            }
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_store_exterior_roof",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Store_Exterior_Roof"
+            },
+            "castShadow": true,
+            "receiveShadow": false
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_prop_awning_redyellow_02",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Prop_Awning_RedYellow_02"
+            }
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_prop_awning_redyellow_03",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Prop_Awning_RedYellow_03"
+            }
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_prop_awning_redyellow_01",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Prop_Awning_RedYellow_01"
+            }
+          }
+        ]
+      },
+      {
+        "name": "particle_slot_04",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -12.264575318085257,
+              1.1611868161407468,
+              -16.45228016076669
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "name": "particle_slot_03",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              19.139088282652203,
+              0.9711899573637641,
+              -17.317464744980327
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "name": "particle_slot_02",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              9.33818066143732,
+              1.76986818159647,
+              -17.317464744980327
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "name": "particle_slot_01",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -2.807252270004552,
+              1.1611868161407468,
+              -17.317464744980327
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_base_doorl",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              1.0933056725706667,
+              0,
+              -14.671594445124551
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Base_DoorL"
+            }
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_base_doorr",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -3.2751016289422177,
+              0,
+              -14.653145463231228
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Base_DoorR"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

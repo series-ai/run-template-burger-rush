@@ -1,0 +1,1 @@
+export { InteractionAreaDisplay } from "./InteractionAreaDisplay"

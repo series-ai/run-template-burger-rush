@@ -1,0 +1,329 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "burger_station",
+    "created": "2026-01-26"
+  },
+  "mounts": [
+    {
+      "alias": "VFX_Core",
+      "path": "shared3d/VFX/VFX_Core.stow"
+    },
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    }
+  ],
+  "root": {
+    "name": "burger_station",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "burger_station_display",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "display_counter",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -1.6645724882817103,
+                  0,
+                  -0.0939350260548597
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh",
+                "mesh": {
+                  "pack": "core",
+                  "assetId": "restaurant_display_Prop_Prep_Station"
+                }
+              }
+            ]
+          },
+          {
+            "name": "display_grill",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  1.6679566637316654,
+                  0,
+                  1.4624982727578628
+                ],
+                "rotation": [
+                  0,
+                  180,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh",
+                "mesh": {
+                  "pack": "core",
+                  "assetId": "restaurant_display_Prop_Grill_L1"
+                }
+              }
+            ]
+          },
+          {
+            "name": "upgrade_area",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  5,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  90,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  3,
+                  0.2,
+                  2.5
+                ],
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  0.5
+                ],
+                "depthTest": true,
+                "wireframe": false
+              }
+            ]
+          },
+          {
+            "name": "collider",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0.5350415868627025,
+                  0.7533120737858259,
+                  -0.2644826315444072
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  5.5,
+                  1.5,
+                  2.25
+                ],
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "burger2",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  1.1174095947049376,
+                  1.4714127117984053,
+                  0.777344887173103
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  0.1,
+                  0.1,
+                  0.1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "depthTest": false
+              }
+            ]
+          },
+          {
+            "name": "burger1",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  2.363890687248236,
+                  1.47,
+                  -0.145209355905642
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  0.1,
+                  0.1,
+                  0.1
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "sphere",
+                "color": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "depthTest": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "purchase_area",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0.56,
+              0,
+              -0.6581528382296402
+            ],
+            "rotation": [
+              0,
+              -90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              5,
+              0.2,
+              6
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              0,
+              1,
+              1,
+              0.5
+            ],
+            "depthTest": true,
+            "wireframe": false
+          }
+        ]
+      }
+    ]
+  }
+}

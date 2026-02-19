@@ -1,0 +1,208 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "pfx_cash_register",
+    "created": "2026-01-26"
+  },
+  "mounts": [
+    {
+      "alias": "VFX_Core",
+      "path": "shared3d/VFX/VFX_Core.stow"
+    }
+  ],
+  "root": {
+    "name": "pfx_cash_register",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "type": "particle_system",
+        "main": {
+          "duration": 2,
+          "looping": false,
+          "startLifetimeMin": 0.7,
+          "startLifetimeMax": 1.5,
+          "startSpeedMin": 1.5,
+          "startSpeedMax": 3.5,
+          "startSizeMin": 2,
+          "startSizeMax": 3,
+          "gravityModifier": 0.5,
+          "maxParticles": 300,
+          "startColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "colorOverLifetime": false,
+          "endColor": [
+            0.5,
+            0.5,
+            0.5,
+            0
+          ],
+          "useMidColor": false,
+          "midColor": [
+            0.8,
+            0.8,
+            0.8,
+            0.7
+          ],
+          "useRandomStartColors": false,
+          "randomStartColors": [
+            [
+              0.8392156862745098,
+              0.3803921568627451,
+              0.3803921568627451,
+              1
+            ],
+            [
+              0.9098039215686274,
+              0.9764705882352941,
+              0.00392156862745098,
+              1
+            ],
+            [
+              0.0196078431372549,
+              0.1843137254901961,
+              1,
+              1
+            ]
+          ]
+        },
+        "emission": {
+          "enabled": true,
+          "mode": "burst",
+          "rateOverTime": 50,
+          "burstCount": 3,
+          "burstCycles": 1,
+          "burstInterval": 0.5
+        },
+        "shape": {
+          "enabled": true,
+          "shape": "cone",
+          "previewShape": true,
+          "radius": 0.25,
+          "coneAngleMin": 15,
+          "coneAngleMax": 30,
+          "coneDirection": [
+            0,
+            1,
+            0
+          ],
+          "boxSize": [
+            1,
+            1,
+            1
+          ],
+          "sphereRadius": 1
+        },
+        "velocity": {
+          "enabled": true,
+          "gravity": [
+            0,
+            -9.8,
+            0
+          ]
+        },
+        "size": {
+          "enabled": true,
+          "endSizeMin": 0.2,
+          "endSizeMax": 0.5
+        },
+        "rotation": {
+          "enabled": false,
+          "startAngleMin": 0,
+          "startAngleMax": 360,
+          "angularVelocityMin": -180,
+          "angularVelocityMax": 180
+        },
+        "noise": {
+          "enabled": false
+        },
+        "textureSheet": {
+          "enabled": true,
+          "timeMode": "fps",
+          "rows": 8,
+          "columns": 8,
+          "fps": 45,
+          "loop": true,
+          "randomStartFrame": true
+        },
+        "collision": {
+          "enabled": false,
+          "planeY": 0,
+          "restitution": 0.7,
+          "friction": 0.5,
+          "killAfterBounces": 2
+        },
+        "renderer": {
+          "texture": {
+            "pack": "VFX_Core",
+            "assetId": "T_FX_Money_8x8"
+          },
+          "blending": "normal",
+          "premultipliedAlpha": false,
+          "maskFromLuminance": false,
+          "velocityScale": 0.4,
+          "stretchWithVelocity": false,
+          "alignToVelocity": false,
+          "renderMode": "billboard"
+        }
+      }
+    ],
+    "children": [
+      {
+        "name": "stack_position",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -1.3340345620569611,
+              1.449321774780091,
+              0.0009650070235011077
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              1,
+              0.5,
+              0.5,
+              1
+            ],
+            "depthTest": false
+          }
+        ]
+      }
+    ]
+  }
+}

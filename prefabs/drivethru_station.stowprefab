@@ -1,0 +1,267 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "drivethru_station",
+    "created": "2026-01-27"
+  },
+  "mounts": [
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    }
+  ],
+  "root": {
+    "name": "drivethru_station",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "checkout_display",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -2.220446049250313e-16,
+              0,
+              -1.5
+            ],
+            "rotation": [
+              0,
+              -90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "restaurant_display_prop_drivethru_counter",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0.9846090070031692,
+                  0,
+                  1.630330779324603
+                ],
+                "rotation": [
+                  0,
+                  90,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh",
+                "mesh": {
+                  "pack": "core",
+                  "assetId": "restaurant_display_Prop_DriveThru_Counter"
+                }
+              },
+              {
+                "type": "mesh_collider",
+                "colliderType": "bounding_box"
+              }
+            ]
+          },
+          {
+            "name": "empty",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  1.0393400626770104,
+                  0,
+                  4.557172484096016
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "cashier_location",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -0.3368128454387569,
+              0,
+              -2.2571398863191896
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              0.4,
+              1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              0.8,
+              1,
+              0,
+              0.5
+            ],
+            "depthTest": true
+          }
+        ]
+      },
+      {
+        "name": "purchase_area",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -1.911737253855649,
+              0,
+              -2
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              5,
+              0.2,
+              4
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "depthTest": true,
+            "wireframe": false
+          }
+        ]
+      },
+      {
+        "name": "cashier_purchase_area",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -1.0885001473163172,
+              0,
+              2.651662328168656
+            ],
+            "rotation": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              0.4,
+              1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              0.8,
+              1,
+              0,
+              0.5
+            ],
+            "depthTest": true
+          }
+        ]
+      },
+      {
+        "name": "stack_position",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -2.523550697858774,
+              1.449321774780091,
+              -0.517142171190704
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              1,
+              0.5,
+              0.5,
+              1
+            ],
+            "depthTest": false
+          }
+        ]
+      }
+    ]
+  }
+}

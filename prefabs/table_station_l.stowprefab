@@ -1,0 +1,325 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "table_station_l",
+    "created": "2026-01-20"
+  },
+  "mounts": [
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    },
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    }
+  ],
+  "root": {
+    "name": "table_station_l",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "displays",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "table_display",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "children": [
+              {
+                "name": "restaurant_display_prop_base_table",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "stow_mesh",
+                    "mesh": {
+                      "pack": "core",
+                      "assetId": "restaurant_display_Prop_Base_Table"
+                    }
+                  },
+                  {
+                    "type": "mesh_collider",
+                    "colliderType": "bounding_box"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "chair_display_0",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  -1.8199100799169519
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "children": [
+              {
+                "name": "restaurant_display_prop_base_chair",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      90,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "stow_mesh",
+                    "mesh": {
+                      "pack": "core",
+                      "assetId": "restaurant_display_Prop_Base_Chair"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "chair_display_1",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  2,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  -90,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "children": [
+              {
+                "name": "restaurant_display_prop_base_chair",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      90,
+                      0
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "stow_mesh",
+                    "mesh": {
+                      "pack": "core",
+                      "assetId": "restaurant_display_Prop_Base_Chair"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "purchase_area",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              3.5,
+              0.2,
+              3.5
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              0,
+              1,
+              1,
+              0.5
+            ],
+            "depthTest": true,
+            "wireframe": false
+          }
+        ]
+      },
+      {
+        "name": "money_pile",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              2,
+              0,
+              -2
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              2,
+              0.2,
+              2
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "depthTest": true,
+            "wireframe": false
+          }
+        ]
+      }
+    ]
+  }
+}

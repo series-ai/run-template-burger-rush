@@ -1,0 +1,172 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "pfx_money",
+    "created": "2026-01-21"
+  },
+  "mounts": [
+    {
+      "alias": "VFX_Core",
+      "path": "shared3d/VFX/VFX_Core.stow"
+    }
+  ],
+  "root": {
+    "name": "pfx_money",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "type": "particle_system",
+        "main": {
+          "duration": 1,
+          "looping": false,
+          "startLifetimeMin": 0.5,
+          "startLifetimeMax": 1,
+          "startSpeedMin": 3,
+          "startSpeedMax": 5,
+          "startSizeMin": 2,
+          "startSizeMax": 3,
+          "gravityModifier": 0.5,
+          "maxParticles": 300,
+          "startColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "colorOverLifetime": true,
+          "endColor": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "useMidColor": false,
+          "midColor": [
+            0.8,
+            0.8,
+            0.8,
+            0.7
+          ]
+        },
+        "emission": {
+          "enabled": true,
+          "mode": "burst",
+          "rateOverTime": 50,
+          "burstCount": 30,
+          "burstCycles": 1,
+          "burstInterval": 0.5
+        },
+        "shape": {
+          "enabled": true,
+          "shape": "cone",
+          "radius": 1,
+          "coneAngleMin": 15,
+          "coneAngleMax": 45,
+          "coneDirection": [
+            0,
+            1,
+            0
+          ],
+          "boxSize": [
+            1,
+            1,
+            1
+          ],
+          "sphereRadius": 1
+        },
+        "velocity": {
+          "enabled": true,
+          "gravity": [
+            0,
+            -9.8,
+            0
+          ],
+          "damping": 0.5
+        },
+        "size": {
+          "value": {
+            "enabled": true,
+            "endSizeMin": 0.2,
+            "endSizeMax": 0.5
+          },
+          "endSizeMin": 4,
+          "endSizeMax": 1,
+          "sizeOverLifetime": {
+            "mode": "constant",
+            "constant": 1,
+            "curve": {
+              "keys": [
+                {
+                  "time": 0,
+                  "value": 1,
+                  "inTangent": 0,
+                  "outTangent": 0
+                },
+                {
+                  "time": 1,
+                  "value": 1,
+                  "inTangent": 0,
+                  "outTangent": 0
+                }
+              ]
+            }
+          }
+        },
+        "rotation": {
+          "enabled": true,
+          "startAngleMin": 0,
+          "startAngleMax": 360,
+          "angularVelocityMin": -180,
+          "angularVelocityMax": 180
+        },
+        "noise": {
+          "enabled": false
+        },
+        "textureSheet": {
+          "enabled": true,
+          "rows": 8,
+          "columns": 8,
+          "fps": 45,
+          "loop": true
+        },
+        "collision": {
+          "enabled": false,
+          "planeY": 0,
+          "restitution": 0.7,
+          "friction": 0.5,
+          "killAfterBounces": 2
+        },
+        "renderer": {
+          "texture": {
+            "pack": "VFX_Core",
+            "assetId": "T_FX_Money_8x8"
+          },
+          "blending": "normal",
+          "premultipliedAlpha": false,
+          "maskFromLuminance": false,
+          "velocityScale": 0.4,
+          "stretchWithVelocity": false,
+          "alignToVelocity": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom mobile-first responsive styles */
+@layer base {
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    font-size: clamp(14px, 4vw, 18px);
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  #renderCanvas {
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+    outline: none;
+  }
+  
+  /* Ensure touch-friendly interactions on mobile */
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer components {
+  /* Fixed size upgrade station UI components */
+  .upgrade-station-ui {
+    @apply font-game;
+    font-size: 14px !important;
+    padding-bottom: 12px !important;
+  }
+  
+  .upgrade-header {
+    @apply flex justify-between items-center border-b-2 border-game-gold;
+    margin-bottom: 16px !important;
+    padding-bottom: 12px !important;
+  }
+  
+  .upgrade-header h2 {
+    @apply m-0 text-game-gold font-bold;
+    font-size: 18px !important;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5) !important;
+  }
+  
+  .upgrade-close-btn {
+    @apply bg-game-red border-2 border-game-red text-white rounded-full cursor-pointer font-bold flex items-center justify-center transition-all duration-200 hover:scale-110 hover:shadow-game-glow active:scale-95 touch-manipulation;
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 16px !important;
+  }
+  
+  .upgrade-list {
+    @apply flex flex-col;
+    gap: 12px !important;
+  }
+  
+  .upgrade-row {
+    @apply flex items-center justify-between bg-game-gold bg-opacity-10 border border-game-gold border-opacity-30 rounded-lg transition-all duration-200 hover:bg-opacity-15 hover:border-opacity-50;
+    padding: 12px 16px !important;
+  }
+  
+  .upgrade-info {
+    @apply flex flex-col flex-1;
+    padding-right: 12px !important;
+  }
+  
+  .upgrade-label {
+    @apply font-bold text-game-gold leading-tight;
+    font-size: 16px !important;
+    margin-bottom: 2px !important;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.3) !important;
+  }
+  
+  .upgrade-level {
+    @apply text-gray-300 font-normal leading-snug;
+    font-size: 12px !important;
+  }
+  
+  .upgrade-button {
+    @apply bg-game-gold bg-opacity-90 border-2 border-game-gold text-black rounded-lg cursor-pointer font-bold transition-all duration-200 flex items-center justify-center shadow-game-text hover:bg-game-gold hover:-translate-y-1 hover:shadow-game-hover active:scale-95 touch-manipulation;
+    padding: 10px 16px !important;
+    font-size: 14px !important;
+    gap: 6px !important;
+    min-width: 100px !important;
+  }
+  
+  .upgrade-button.disabled {
+    @apply bg-gray-600 bg-opacity-50 border-gray-500 text-gray-400 cursor-not-allowed transform-none shadow-none;
+  }
+  
+  .money-icon {
+    @apply inline-block;
+    width: 20px !important;
+    height: 20px !important;
+    background-image: url('/assets/cozy_game_general/money_icon.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.4)) !important;
+  }
+}
+
+/* Simple fixed scaling - UI containers will handle scaling */
+@layer utilities {
+  .fixed-scale {
+    /* Fixed pixel dimensions - container scaling will handle size adjustments */
+    width: 450px !important;
+    height: auto !important;
+    max-height: 400px !important;
+    overflow-y: auto !important;
+    transform-origin: center !important;
+  }
+  
+  /* Fixed typography that doesn't scale with zoom */
+  .text-fixed-sm { font-size: 12px !important; }
+  .text-fixed-base { font-size: 14px !important; }
+  .text-fixed-lg { font-size: 16px !important; }
+  .text-fixed-xl { font-size: 18px !important; }
+  .text-fixed-2xl { font-size: 20px !important; }
+  
+  /* Touch-friendly but fixed sizes */
+  .touch-target {
+    min-height: 40px !important;
+    min-width: 40px !important;
+  }
+  
+  /* Prevent zoom and scaling */
+  .no-zoom {
+    touch-action: manipulation !important;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    zoom: 1 !important;
+    -webkit-text-size-adjust: none !important;
+  }
+}

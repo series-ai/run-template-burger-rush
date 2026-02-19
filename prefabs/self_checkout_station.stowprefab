@@ -1,0 +1,466 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "self_checkout_station",
+    "created": "2026-01-26"
+  },
+  "mounts": [
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    }
+  ],
+  "root": {
+    "name": "self_checkout_station",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "collision",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -10.91688142426041,
+              0,
+              -8.211064771444285
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "obstacle_0",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  5.736127132617037,
+                  0,
+                  7.389000343663773
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  1.5,
+                  4,
+                  5
+                ],
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          },
+          {
+            "name": "obstacle_1",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  3.886639342810179,
+                  0,
+                  9.652404200774095
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  5.3,
+                  4,
+                  1.5
+                ],
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "station_display",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "restaurant_display_prop_selfservice",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -7.172495075226661,
+                  0,
+                  -0.16324949270402023
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh",
+                "mesh": {
+                  "pack": "core",
+                  "assetId": "restaurant_display_Prop_SelfService"
+                }
+              },
+              {
+                "type": "mesh_collider",
+                "colliderType": "bounding_box"
+              }
+            ]
+          },
+          {
+            "name": "restaurant_display_upgrade_selfservice",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh",
+                "mesh": {
+                  "pack": "core",
+                  "assetId": "restaurant_display_Upgrade_SelfService"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "purchase_area",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -9.57827500916611,
+              0,
+              -9.222578671961475
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              4,
+              0.2,
+              4
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "depthTest": true,
+            "wireframe": false
+          }
+        ]
+      },
+      {
+        "name": "burgerstack",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -5.000072835553449,
+              1.54,
+              -2.5941872000636117
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              0.1,
+              1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "depthTest": true
+          }
+        ]
+      },
+      {
+        "name": "shakestack",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -8.889140505226198,
+              1.5443878022174076,
+              1.4299310809475188
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              0.1,
+              1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              1,
+              1,
+              0,
+              1
+            ],
+            "depthTest": true
+          }
+        ]
+      },
+      {
+        "name": "wall",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Base_SelfService_wall_HIDE"
+            }
+          }
+        ],
+        "children": [
+          {
+            "name": "wall-collider",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -9.525670690926383,
+                  0,
+                  -14.558137438122152
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  5,
+                  2,
+                  1
+                ],
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "money_pile",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -11.773621457403017,
+              0,
+              1.745225434396458
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "depthTest": false
+          }
+        ]
+      }
+    ]
+  }
+}

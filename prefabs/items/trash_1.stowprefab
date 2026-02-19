@@ -1,0 +1,44 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "trash_1",
+    "created": "2026-01-23"
+  },
+  "mounts": [
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    }
+  ],
+  "root": {
+    "name": "trash_1",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "type": "stow_mesh",
+        "mesh": {
+          "pack": "core",
+          "assetId": "restaurant_display_Prop_Trash_1"
+        }
+      }
+    ]
+  }
+}

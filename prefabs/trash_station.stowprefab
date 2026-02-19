@@ -1,0 +1,107 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "trash_station",
+    "created": "2026-01-26"
+  },
+  "mounts": [
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    }
+  ],
+  "root": {
+    "name": "trash_station",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "label",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              -2.5580811711586757
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "depthTest": false
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_trash",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              -0.4000472486162576
+            ],
+            "rotation": [
+              0,
+              -90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Prop_TrashCan"
+            }
+          },
+          {
+            "type": "mesh_collider",
+            "colliderType": "bounding_box"
+          }
+        ]
+      }
+    ]
+  }
+}

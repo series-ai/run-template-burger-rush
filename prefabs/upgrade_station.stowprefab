@@ -1,0 +1,210 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "upgrade_station",
+    "created": "2026-01-23"
+  },
+  "mounts": [
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    }
+  ],
+  "root": {
+    "name": "upgrade_station",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "interaction_zone",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0.4082098335401385,
+              0,
+              -0.7256343221196166
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              12,
+              0.2,
+              12
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "depthTest": true,
+            "wireframe": false
+          }
+        ]
+      },
+      {
+        "name": "upgrade_station_display",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "restaurant_display_desk",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  -0.3322672530424762,
+                  0,
+                  -0.2014036117160405
+                ],
+                "rotation": [
+                  0,
+                  90,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh",
+                "mesh": {
+                  "pack": "core",
+                  "assetId": "restaurant_display_Desk"
+                }
+              },
+              {
+                "type": "mesh_collider",
+                "colliderType": "bounding_box"
+              }
+            ]
+          },
+          {
+            "name": "restaurant_display_chair_l4",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  2.7484248364350523,
+                  0,
+                  0.17476442061344288
+                ],
+                "rotation": [
+                  0,
+                  -78.00000000000001,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh",
+                "mesh": {
+                  "pack": "core",
+                  "assetId": "restaurant_display_Prop_Chair_L1"
+                }
+              },
+              {
+                "type": "mesh_collider",
+                "colliderType": "bounding_box"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "label",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0.5,
+              0,
+              -9.25
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "debug_view",
+            "primitive": "sphere",
+            "color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "depthTest": false
+          }
+        ]
+      }
+    ]
+  }
+}

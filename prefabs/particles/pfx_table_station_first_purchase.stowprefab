@@ -1,0 +1,677 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "pfx_table_station_first_purchase",
+    "created": "2026-01-26"
+  },
+  "mounts": [
+    {
+      "alias": "VFX_Core",
+      "path": "shared3d/VFX/VFX_Core.stow"
+    }
+  ],
+  "root": {
+    "name": "pfx_table_station_first_purchase",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "type": "particle_system",
+        "main": {
+          "duration": 5,
+          "looping": false,
+          "startLifetimeMin": 0.1,
+          "startLifetimeMax": 0.1,
+          "startSpeedMin": 1,
+          "startSpeedMax": 3,
+          "startSizeMin": 0.8,
+          "startSizeMax": 1.2,
+          "gravityModifier": 1,
+          "maxParticles": 300,
+          "startColor": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "useRandomStartColors": false,
+          "randomStartColors": [],
+          "colorOverLifetime": false,
+          "endColor": [
+            0.5,
+            0.5,
+            0.5,
+            0
+          ],
+          "useMidColor": false,
+          "midColor": [
+            0.8,
+            0.8,
+            0.8,
+            0.7
+          ]
+        },
+        "emission": {
+          "enabled": true,
+          "mode": "burst",
+          "rateOverTime": 50,
+          "burstCount": 1,
+          "burstCycles": 1,
+          "burstInterval": 0.5
+        },
+        "shape": {
+          "enabled": true,
+          "shape": "cone",
+          "previewShape": false,
+          "radius": 0.25,
+          "coneAngleMin": 15,
+          "coneAngleMax": 30,
+          "coneDirection": [
+            0,
+            1,
+            0
+          ],
+          "boxSize": [
+            1,
+            1,
+            1
+          ],
+          "sphereRadius": 1
+        },
+        "velocity": {
+          "enabled": true,
+          "gravity": [
+            0,
+            -9.8,
+            0
+          ]
+        },
+        "size": {
+          "enabled": true,
+          "endSizeMin": 0.2,
+          "endSizeMax": 0.5
+        },
+        "rotation": {
+          "enabled": false,
+          "startAngleMin": 0,
+          "startAngleMax": 360,
+          "angularVelocityMin": -180,
+          "angularVelocityMax": 180
+        },
+        "noise": {
+          "enabled": false,
+          "positionAmount": 0,
+          "rotationAmount": 0,
+          "sizeAmount": 0,
+          "strengthX": 1,
+          "strengthY": 1,
+          "frequency": 1,
+          "scrollSpeed": 0,
+          "octaves": 1
+        },
+        "textureSheet": {
+          "enabled": false,
+          "timeMode": "fps",
+          "rows": 4,
+          "columns": 4,
+          "fps": 15,
+          "loop": true,
+          "randomStartFrame": false
+        },
+        "collision": {
+          "enabled": false,
+          "planeY": 0,
+          "restitution": 0.7,
+          "friction": 0.5,
+          "killAfterBounces": 2
+        },
+        "renderer": {
+          "renderMode": "billboard",
+          "texture": null,
+          "blending": "additive",
+          "premultipliedAlpha": false,
+          "maskFromLuminance": false,
+          "velocityScale": 0.4,
+          "stretchWithVelocity": false,
+          "alignToVelocity": false,
+          "flipX": 0,
+          "flipY": 0
+        }
+      }
+    ],
+    "children": [
+      {
+        "name": "star_burst",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              4.089253988134357,
+              4.089253988134357,
+              4.089253988134357
+            ]
+          },
+          {
+            "type": "particle_system",
+            "main": {
+              "duration": 3,
+              "looping": false,
+              "startLifetimeMin": 1,
+              "startLifetimeMax": 1.5,
+              "startSpeedMin": 0.5,
+              "startSpeedMax": 2,
+              "startSizeMin": 1,
+              "startSizeMax": 2,
+              "gravityModifier": 0.15,
+              "maxParticles": 300,
+              "startColor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "useRandomStartColors": false,
+              "randomStartColors": [],
+              "colorOverLifetime": true,
+              "endColor": [
+                0.5,
+                0.5,
+                0.5,
+                0
+              ],
+              "useMidColor": false,
+              "midColor": [
+                0.8,
+                0.8,
+                0.8,
+                0.7
+              ]
+            },
+            "emission": {
+              "enabled": true,
+              "mode": "burst",
+              "rateOverTime": 50,
+              "burstCount": 8,
+              "burstCycles": 1,
+              "burstInterval": 0.5
+            },
+            "shape": {
+              "enabled": true,
+              "shape": "cone",
+              "previewShape": true,
+              "radius": 1,
+              "coneAngleMin": 1.64,
+              "coneAngleMax": 7.88,
+              "coneDirection": [
+                0,
+                1,
+                0
+              ],
+              "boxSize": [
+                1,
+                1,
+                1
+              ],
+              "sphereRadius": 1
+            },
+            "velocity": {
+              "enabled": true,
+              "gravity": [
+                0,
+                -9.8,
+                0
+              ]
+            },
+            "size": {
+              "value": {
+                "enabled": true,
+                "endSizeMin": 0.01,
+                "endSizeMax": 0.01
+              },
+              "sizeOverLifetime": {
+                "mode": "constant",
+                "constant": 0.3,
+                "curve": {
+                  "keys": [
+                    {
+                      "time": 0,
+                      "value": 1,
+                      "inTangent": 0,
+                      "outTangent": 0
+                    },
+                    {
+                      "time": 1,
+                      "value": 1,
+                      "inTangent": 0,
+                      "outTangent": 0
+                    }
+                  ]
+                }
+              }
+            },
+            "rotation": {
+              "enabled": true,
+              "startAngleMin": 0,
+              "startAngleMax": 360,
+              "angularVelocityMin": -180,
+              "angularVelocityMax": 180,
+              "rotationOverLifetime": {
+                "mode": "constant",
+                "constant": 2,
+                "curve": {
+                  "keys": [
+                    {
+                      "time": 0,
+                      "value": 1,
+                      "inTangent": 0,
+                      "outTangent": 0
+                    },
+                    {
+                      "time": 1,
+                      "value": 1,
+                      "inTangent": 0,
+                      "outTangent": 0
+                    }
+                  ]
+                }
+              }
+            },
+            "noise": {
+              "enabled": false,
+              "positionAmount": 0,
+              "rotationAmount": 0,
+              "sizeAmount": 0,
+              "strengthX": 1,
+              "strengthY": 1,
+              "frequency": 1,
+              "scrollSpeed": 0,
+              "octaves": 1
+            },
+            "textureSheet": {
+              "enabled": false,
+              "timeMode": "fps",
+              "rows": 4,
+              "columns": 4,
+              "fps": 15,
+              "loop": true,
+              "randomStartFrame": false
+            },
+            "collision": {
+              "enabled": false,
+              "planeY": 0,
+              "restitution": 0.7,
+              "friction": 0.5,
+              "killAfterBounces": 2
+            },
+            "renderer": {
+              "renderMode": "billboard",
+              "texture": {
+                "pack": "VFX_Core",
+                "assetId": "T_FX_Star_02"
+              },
+              "blending": "normal",
+              "premultipliedAlpha": false,
+              "maskFromLuminance": false,
+              "velocityScale": 0.4,
+              "stretchWithVelocity": false,
+              "alignToVelocity": false,
+              "flipX": 0,
+              "flipY": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "trail",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "particle_system",
+            "main": {
+              "duration": 2,
+              "looping": false,
+              "startLifetimeMin": 1.5,
+              "startLifetimeMax": 3,
+              "startSpeedMin": 1.4,
+              "startSpeedMax": 2,
+              "startSizeMin": 0.5,
+              "startSizeMax": 1,
+              "gravityModifier": 0.1,
+              "maxParticles": 300,
+              "startColor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "useRandomStartColors": true,
+              "randomStartColors": [
+                [
+                  0.8784313725490196,
+                  0.611764705882353,
+                  0.043137254901960784,
+                  1
+                ],
+                [
+                  0.9254901960784314,
+                  0.5098039215686274,
+                  0.03529411764705882,
+                  1
+                ]
+              ],
+              "colorOverLifetime": false,
+              "endColor": [
+                0.5,
+                0.5,
+                0.5,
+                0
+              ],
+              "useMidColor": false,
+              "midColor": [
+                0.8,
+                0.8,
+                0.8,
+                0.7
+              ]
+            },
+            "emission": {
+              "enabled": true,
+              "mode": "burst",
+              "rateOverTime": 50,
+              "burstCount": 3,
+              "burstCycles": 2,
+              "burstInterval": 0.1
+            },
+            "shape": {
+              "enabled": true,
+              "shape": "cone",
+              "previewShape": true,
+              "radius": 2,
+              "coneAngleMin": 1,
+              "coneAngleMax": 5,
+              "coneDirection": [
+                0,
+                1,
+                0
+              ],
+              "boxSize": [
+                1,
+                1,
+                1
+              ],
+              "sphereRadius": 1
+            },
+            "velocity": {
+              "enabled": true,
+              "gravity": [
+                0,
+                -9.8,
+                0
+              ]
+            },
+            "size": {
+              "enabled": true,
+              "endSizeMin": 0.01,
+              "endSizeMax": 0.01
+            },
+            "rotation": {
+              "enabled": false,
+              "startAngleMin": 0,
+              "startAngleMax": 360,
+              "angularVelocityMin": -180,
+              "angularVelocityMax": 180
+            },
+            "noise": {
+              "enabled": true,
+              "positionAmount": 1,
+              "rotationAmount": 0,
+              "sizeAmount": 0,
+              "strengthX": 1,
+              "strengthY": 1,
+              "frequency": 1,
+              "scrollSpeed": 0.01,
+              "octaves": 1
+            },
+            "textureSheet": {
+              "enabled": false,
+              "timeMode": "fps",
+              "rows": 4,
+              "columns": 4,
+              "fps": 15,
+              "loop": true,
+              "randomStartFrame": false
+            },
+            "collision": {
+              "enabled": false,
+              "planeY": 0,
+              "restitution": 0.7,
+              "friction": 0.5,
+              "killAfterBounces": 2
+            },
+            "renderer": {
+              "renderMode": "billboard",
+              "texture": {
+                "pack": "VFX_Core",
+                "assetId": "T_FX_Sparkle_01"
+              },
+              "blending": "normal",
+              "premultipliedAlpha": false,
+              "maskFromLuminance": false,
+              "velocityScale": 2,
+              "stretchWithVelocity": true,
+              "alignToVelocity": false,
+              "flipX": 0,
+              "flipY": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "sparkles",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              5.079449918927363,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "particle_system",
+            "main": {
+              "duration": 2,
+              "looping": false,
+              "startLifetimeMin": 1.5,
+              "startLifetimeMax": 3,
+              "startSpeedMin": 1,
+              "startSpeedMax": 3,
+              "startSizeMin": 1,
+              "startSizeMax": 2,
+              "gravityModifier": 0.1,
+              "maxParticles": 300,
+              "startColor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "useRandomStartColors": true,
+              "randomStartColors": [
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ]
+              ],
+              "colorOverLifetime": false,
+              "endColor": [
+                0.5,
+                0.5,
+                0.5,
+                0
+              ],
+              "useMidColor": false,
+              "midColor": [
+                0.8,
+                0.8,
+                0.8,
+                0.7
+              ]
+            },
+            "emission": {
+              "enabled": true,
+              "mode": "burst",
+              "rateOverTime": 50,
+              "burstCount": 5,
+              "burstCycles": 3,
+              "burstInterval": 0.1
+            },
+            "shape": {
+              "enabled": true,
+              "shape": "sphere",
+              "previewShape": true,
+              "radius": 1,
+              "coneAngleMin": 1.6,
+              "coneAngleMax": 34.56,
+              "coneDirection": [
+                0,
+                1,
+                0
+              ],
+              "boxSize": [
+                1,
+                1,
+                1
+              ],
+              "sphereRadius": 3
+            },
+            "velocity": {
+              "enabled": true,
+              "gravity": [
+                0,
+                -9.8,
+                0
+              ]
+            },
+            "size": {
+              "enabled": true,
+              "endSizeMin": 0.01,
+              "endSizeMax": 0.01
+            },
+            "rotation": {
+              "enabled": false,
+              "startAngleMin": 0,
+              "startAngleMax": 360,
+              "angularVelocityMin": -180,
+              "angularVelocityMax": 180
+            },
+            "noise": {
+              "enabled": true,
+              "positionAmount": 0,
+              "rotationAmount": 0,
+              "sizeAmount": 1,
+              "strengthX": 2,
+              "strengthY": 2,
+              "frequency": 3,
+              "scrollSpeed": 1,
+              "octaves": 4
+            },
+            "textureSheet": {
+              "enabled": false,
+              "timeMode": "fps",
+              "rows": 4,
+              "columns": 4,
+              "fps": 15,
+              "loop": true,
+              "randomStartFrame": false
+            },
+            "collision": {
+              "enabled": false,
+              "planeY": 0,
+              "restitution": 0.7,
+              "friction": 0.5,
+              "killAfterBounces": 2
+            },
+            "renderer": {
+              "renderMode": "billboard",
+              "texture": {
+                "pack": "VFX_Core",
+                "assetId": "T_FX_Sparkle_01"
+              },
+              "blending": "normal",
+              "premultipliedAlpha": false,
+              "maskFromLuminance": false,
+              "velocityScale": 2,
+              "stretchWithVelocity": false,
+              "alignToVelocity": false,
+              "flipX": 0,
+              "flipY": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

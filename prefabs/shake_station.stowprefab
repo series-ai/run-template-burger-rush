@@ -1,0 +1,289 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "shake_station",
+    "created": "2026-01-29"
+  },
+  "mounts": [
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    }
+  ],
+  "root": {
+    "name": "shake_station",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "station_display",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "shake_display",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0.41357377506001947,
+                  0,
+                  0.7566174428345109
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh",
+                "mesh": {
+                  "pack": "core",
+                  "assetId": "restaurant_display_Prop_ShakeMachine_L1"
+                }
+              }
+            ]
+          },
+          {
+            "name": "counter_display",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  2.1670289666867277,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "stow_mesh",
+                "mesh": {
+                  "pack": "core",
+                  "assetId": "restaurant_display_Prop_Prep_Station"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+              }
+            ]
+          },
+          {
+            "name": "upgrade_area",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  5.5,
+                  0,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  90,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "children": [
+              {
+                "name": "locator",
+                "components": [
+                  {
+                    "type": "transform",
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "scale": [
+                      3,
+                      0.2,
+                      2.5
+                    ]
+                  },
+                  {
+                    "type": "debug_view",
+                    "primitive": "box",
+                    "color": [
+                      0,
+                      1,
+                      0,
+                      0.2
+                    ],
+                    "depthTest": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "collider",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  1.4189960262534207,
+                  0.732339680592794,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "type": "box",
+                "size": [
+                  4.2,
+                  1.5,
+                  2
+                ],
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "color": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "depthTest": true,
+                "wireframe": true,
+                "isCollider": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "purchase_area",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              1,
+              0,
+              -0.5
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "locator",
+            "components": [
+              {
+                "type": "transform",
+                "position": [
+                  0.1254426343108393,
+                  0,
+                  0.6491590801558689
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  5,
+                  0.2,
+                  3.5
+                ]
+              },
+              {
+                "type": "debug_view",
+                "primitive": "box",
+                "color": [
+                  0,
+                  1,
+                  1,
+                  0.2
+                ],
+                "depthTest": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

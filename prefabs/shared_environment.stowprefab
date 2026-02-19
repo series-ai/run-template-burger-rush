@@ -1,0 +1,404 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "shared_environment",
+    "created": "2026-01-29"
+  },
+  "mounts": [
+    {
+      "alias": "core",
+      "path": "Core.stow"
+    }
+  ],
+  "root": {
+    "name": "shared_environment",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "restaurant_display_environment_exterior",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Environment_Exterior"
+            },
+            "castShadow": false,
+            "receiveShadow": false
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_storefront_parking",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0.0033679985510737254,
+              -0.14114018830589636,
+              0.5983416584645589
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1.01,
+              0.49098414268730306,
+              1.0335719559465684
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Storefront_Parking"
+            },
+            "castShadow": false
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_road",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              -0.061769543202258165,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Road"
+            }
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_prop_burger_lettuce",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              942.7427734004777,
+              -94.56784478837191,
+              1323.2682853738193
+            ],
+            "rotation": [
+              -2.943408285810771,
+              -50.99824757293123,
+              0.7548098198127646
+            ],
+            "scale": [
+              3855.1700436626033,
+              4926.115942164565,
+              8102.920486481277
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Prop_Burger_Lettuce"
+            }
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_storefront_grass",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -0.838148489860906,
+              -0.13343688424836903,
+              4.0380143016663474
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1.0813644018014181,
+              1,
+              1.2546679553327993
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Storefront_Grass"
+            },
+            "castShadow": false
+          }
+        ]
+      },
+      {
+        "name": "restaurant_display_storefront_entry",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              -0.05,
+              0.9931862095843265
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1.0543404430998469
+            ]
+          },
+          {
+            "type": "stow_mesh",
+            "mesh": {
+              "pack": "core",
+              "assetId": "restaurant_display_Storefront_Entry"
+            },
+            "castShadow": false
+          }
+        ]
+      },
+      {
+        "name": "collider",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              35.187483066230854,
+              3.307246273968726,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              1,
+              10,
+              100
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "depthTest": true,
+            "wireframe": true,
+            "isCollider": false
+          }
+        ]
+      },
+      {
+        "name": "collider_01",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -9.853244006616606,
+              3.307246273968726,
+              45.09955513513467
+            ],
+            "rotation": [
+              0,
+              -90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              1,
+              10,
+              100
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "depthTest": true,
+            "wireframe": true,
+            "isCollider": false
+          }
+        ]
+      },
+      {
+        "name": "collider_02",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -50.325240272100906,
+              3.307246273968726,
+              -1.0200729246016067
+            ],
+            "rotation": [
+              180,
+              -2.5444437451708134e-14,
+              180
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              1,
+              10,
+              100
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "depthTest": true,
+            "wireframe": true,
+            "isCollider": false
+          }
+        ]
+      },
+      {
+        "name": "collider_03",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              -6.246816892567374,
+              3.307246273968726,
+              -49.67381409014062
+            ],
+            "rotation": [
+              -7.016709298534876e-15,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "box",
+            "size": [
+              1,
+              10,
+              100
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "color": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "depthTest": true,
+            "wireframe": true,
+            "isCollider": false
+          }
+        ]
+      }
+    ]
+  }
+}

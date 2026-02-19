@@ -1,0 +1,204 @@
+{
+  "schema": "stow.prefab",
+  "version": 0,
+  "meta": {
+    "name": "pfx_confetti",
+    "created": "2026-01-24"
+  },
+  "mounts": [
+    {
+      "alias": "VFX_Core",
+      "path": "shared3d/VFX/VFX_Core.stow"
+    }
+  ],
+  "root": {
+    "name": "pfx_confetti",
+    "components": [
+      {
+        "type": "transform",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "type": "particle_system",
+        "main": {
+          "duration": 2,
+          "looping": false,
+          "startLifetimeMin": 0.25,
+          "startLifetimeMax": 4,
+          "startSpeedMin": 2,
+          "startSpeedMax": 8,
+          "startSizeMin": 3,
+          "startSizeMax": 4,
+          "gravityModifier": 0.2,
+          "maxParticles": 300,
+          "startColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "colorOverLifetime": false,
+          "endColor": [
+            0.5,
+            0.5,
+            0.5,
+            0
+          ],
+          "useMidColor": false,
+          "midColor": [
+            0.8,
+            0.8,
+            0.8,
+            0.7
+          ],
+          "useRandomStartColors": true,
+          "randomStartColors": [
+            [
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              0.027450980392156862,
+              0.058823529411764705,
+              0.9490196078431372,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1
+            ]
+          ]
+        },
+        "emission": {
+          "enabled": true,
+          "mode": "burst",
+          "rateOverTime": 50,
+          "burstCount": 30,
+          "burstCycles": 1,
+          "burstInterval": 0.5
+        },
+        "shape": {
+          "enabled": true,
+          "shape": "cone",
+          "previewShape": true,
+          "radius": 3,
+          "coneAngleMin": 15,
+          "coneAngleMax": 30,
+          "coneDirection": [
+            0,
+            1,
+            0
+          ],
+          "boxSize": [
+            1,
+            1,
+            1
+          ],
+          "sphereRadius": 1
+        },
+        "velocity": {
+          "enabled": true,
+          "gravity": [
+            0,
+            -9.8,
+            0
+          ]
+        },
+        "size": {
+          "value": {
+            "enabled": true,
+            "endSizeMin": 0.2,
+            "endSizeMax": 0.5
+          },
+          "enabled": true,
+          "endSizeMax": 0.01,
+          "endSizeMin": 0.01
+        },
+        "rotation": {
+          "enabled": true,
+          "startAngleMin": 0,
+          "startAngleMax": 360,
+          "angularVelocityMin": -180,
+          "angularVelocityMax": 180
+        },
+        "noise": {
+          "enabled": false
+        },
+        "textureSheet": {
+          "enabled": true,
+          "rows": 2,
+          "columns": 2,
+          "fps": 1,
+          "loop": true,
+          "timeMode": "startLifetime"
+        },
+        "collision": {
+          "enabled": false,
+          "planeY": 0,
+          "restitution": 0.7,
+          "friction": 0.5,
+          "killAfterBounces": 2
+        },
+        "renderer": {
+          "texture": {
+            "pack": "VFX_Core",
+            "assetId": "T_FX_Confetti_01"
+          },
+          "blending": "normal",
+          "premultipliedAlpha": false,
+          "maskFromLuminance": false,
+          "velocityScale": 0.4,
+          "stretchWithVelocity": false,
+          "alignToVelocity": false
+        }
+      }
+    ],
+    "children": [
+      {
+        "name": "pfx_ribbons",
+        "components": [
+          {
+            "type": "transform",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "type": "prefab_instance",
+            "prefab_path": "particles/pfx_ribbons.stowprefab"
+          }
+        ]
+      }
+    ]
+  }
+}

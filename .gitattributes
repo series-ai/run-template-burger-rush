@@ -1,0 +1,5 @@
+# LFS: only very large source/assets (no other changes to repo)
+*.ma    filter=lfs diff=lfs merge=lfs -text
+*.mb    filter=lfs diff=lfs merge=lfs -text
+*.psd   filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
