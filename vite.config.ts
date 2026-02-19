@@ -18,7 +18,8 @@ export default defineConfig(() => ({
   },
   server: {
     port: 3033,
-    host: "0.0.0.0", // This allows external connections
+    host: "0.0.0.0",
+    allowedHosts: true,
     open: true,
     watch: {
       usePolling: true,
