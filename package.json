@@ -25,12 +25,6 @@
         "three-stdlib": "^2.36.0",
         "uuid": "^11.1.0"
     },
-    "pnpm": {
-        "onlyBuiltDependencies": [
-            "@series-inc/rundot-3d-engine",
-            "@series-inc/rundot-game-sdk"
-        ]
-    },
     "devDependencies": {
         "@types/node": "^20.11.16",
         "@types/three": "^0.180.0",
