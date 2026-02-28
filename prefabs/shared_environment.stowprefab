@@ -7,8 +7,8 @@
   },
   "mounts": [
     {
-      "alias": "core",
-      "path": "Core.stow"
+      "alias": "burgerrush",
+      "path": "burgershop.stow"
     }
   ],
   "root": {
@@ -58,8 +58,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Environment_Exterior"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_environment_exterior"
             },
             "castShadow": false,
             "receiveShadow": false
@@ -90,8 +90,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Storefront_Parking"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_storefront_parking"
             },
             "castShadow": false
           }
@@ -121,8 +121,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Road"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_road"
             }
           }
         ]
@@ -151,8 +151,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Prop_Burger_Lettuce"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_prop_burger_lettuce"
             }
           }
         ]
@@ -181,8 +181,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Storefront_Grass"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_storefront_grass"
             },
             "castShadow": false
           }
@@ -212,8 +212,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Storefront_Entry"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_storefront_entry"
             },
             "castShadow": false
           }

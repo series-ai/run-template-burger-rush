@@ -1,4 +1,5 @@
-import { Component, RundotGameAPI } from "@series-inc/rundot-3d-engine"
+import { Component } from "@series-inc/rundot-3d-engine"
+import RundotGameAPI from "@series-inc/rundot-game-sdk/api"
 import { BurgerShopUI } from "@game/ui/BurgerShopUI"
 
 export class PickupConfirmPopupUI {

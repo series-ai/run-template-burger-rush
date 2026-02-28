@@ -7,8 +7,8 @@
   },
   "mounts": [
     {
-      "alias": "VFX_Core",
-      "path": "shared3d/VFX/VFX_Core.stow"
+      "alias": "vfx",
+      "path": "vfx.stow"
     }
   ],
   "root": {
@@ -229,8 +229,8 @@
         "renderer": {
           "renderMode": "billboard",
           "texture": {
-            "pack": "VFX_Core",
-            "assetId": "T_FX_Poof_02"
+            "pack": "vfx",
+            "assetId": "t_fx_poof_02"
           },
           "blending": "additive",
           "premultipliedAlpha": false,
@@ -462,8 +462,8 @@
             "renderer": {
               "renderMode": "billboard",
               "texture": {
-                "pack": "VFX_Core",
-                "assetId": "T_FX_Smoke_01"
+                "pack": "vfx",
+                "assetId": "t_fx_smoke_01"
               },
               "blending": "additive",
               "premultipliedAlpha": false,

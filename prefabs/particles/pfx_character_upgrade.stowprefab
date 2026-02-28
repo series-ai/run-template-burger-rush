@@ -7,8 +7,8 @@
   },
   "mounts": [
     {
-      "alias": "VFX_Core",
-      "path": "shared3d/VFX/VFX_Core.stow"
+      "alias": "vfx",
+      "path": "vfx.stow"
     }
   ],
   "root": {
@@ -226,8 +226,8 @@
         "renderer": {
           "renderMode": "billboard",
           "texture": {
-            "pack": "VFX_Core",
-            "assetId": "T_FX_Glow_01"
+            "pack": "vfx",
+            "assetId": "t_fx_glow_01"
           },
           "blending": "additive",
           "premultipliedAlpha": false,
@@ -475,8 +475,8 @@
             "renderer": {
               "renderMode": "billboard",
               "texture": {
-                "pack": "VFX_Core",
-                "assetId": "T_FX_Sparkle_01"
+                "pack": "vfx",
+                "assetId": "t_fx_sparkle_01"
               },
               "blending": "normal",
               "premultipliedAlpha": false,
@@ -708,8 +708,8 @@
             "renderer": {
               "renderMode": "billboard",
               "texture": {
-                "pack": "VFX_Core",
-                "assetId": "T_FX_Glow_01"
+                "pack": "vfx",
+                "assetId": "t_fx_glow_01"
               },
               "blending": "normal",
               "premultipliedAlpha": false,
@@ -971,8 +971,8 @@
             "renderer": {
               "renderMode": "billboard",
               "texture": {
-                "pack": "VFX_Core",
-                "assetId": "T_FX_Sign_01"
+                "pack": "vfx",
+                "assetId": "t_fx_sign_01"
               },
               "blending": "normal",
               "premultipliedAlpha": false,

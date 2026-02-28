@@ -117,7 +117,7 @@ export class PlayerComponent extends Component {
    */
   private setupCharacterComponents(): void {
     // 1. Create character display first 
-    this.characterDisplay = new BurgerCharacterDisplay("stowkit://Character_Main")
+    this.characterDisplay = new BurgerCharacterDisplay("stowkit://character_main_character")
     this.gameObject.addComponent(this.characterDisplay)
 
     // 2. Create character animator (finds display automatically)

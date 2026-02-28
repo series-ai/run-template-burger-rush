@@ -69,7 +69,7 @@ export class Employee extends Component {
     }
 
     private setupCharacterComponents(): void {
-        this.characterDisplay = new BurgerCharacterDisplay("stowkit://Character_Employee_01")
+        this.characterDisplay = new BurgerCharacterDisplay("stowkit://character_employee_01")
         this.gameObject.addComponent(this.characterDisplay)
 
         this.characterAnimator = new BurgerCharacterAnimator()

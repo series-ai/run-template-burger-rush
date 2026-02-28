@@ -7,8 +7,8 @@
   },
   "mounts": [
     {
-      "alias": "core",
-      "path": "Core.stow"
+      "alias": "burgerrush",
+      "path": "burgershop.stow"
     }
   ],
   "root": {
@@ -92,8 +92,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_OuterWall_Front"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_outerwall_front"
             }
           }
         ],
@@ -169,8 +169,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Upgrade_Patio"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_upgrade_patio"
             }
           }
         ],

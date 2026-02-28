@@ -11,6 +11,11 @@ export default defineConfig(() => ({
     alias: {
       "@game": resolve(__dirname, "src/burgershop"),
       "@": resolve(__dirname, "src"),
+      "@capacitor/core": resolve(__dirname, "stubs/capacitor.ts"),
+      "@capacitor/app": resolve(__dirname, "stubs/capacitor.ts"),
+      "@capacitor/local-notifications": resolve(__dirname, "stubs/capacitor.ts"),
+      "@capacitor/preferences": resolve(__dirname, "stubs/capacitor.ts"),
+      "@capacitor/splash-screen": resolve(__dirname, "stubs/capacitor.ts"),
     },
   },
   optimizeDeps: {

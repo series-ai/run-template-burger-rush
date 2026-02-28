@@ -1,6 +1,7 @@
 import * as THREE from "three"
 import { IUnlockable } from "./IUnlockable"
-import { Component, GameObject, RundotGameAPI } from "@series-inc/rundot-3d-engine"
+import { Component, GameObject } from "@series-inc/rundot-3d-engine"
+import RundotGameAPI from "@series-inc/rundot-game-sdk/api"
 import { MoneySystem } from "./MoneySystem"
 import {
   PlayAudioOneShot2D,

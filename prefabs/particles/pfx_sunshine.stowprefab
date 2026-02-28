@@ -7,8 +7,8 @@
   },
   "mounts": [
     {
-      "alias": "VFX_Core",
-      "path": "shared3d/VFX/VFX_Core.stow"
+      "alias": "vfx",
+      "path": "vfx.stow"
     }
   ],
   "root": {
@@ -501,8 +501,8 @@
             "renderer": {
               "renderMode": "billboard",
               "texture": {
-                "pack": "VFX_Core",
-                "assetId": "T_FX_Sunshine_02"
+                "pack": "vfx",
+                "assetId": "t_fx_sunshine_02"
               },
               "blending": "normal",
               "premultipliedAlpha": true,
@@ -776,8 +776,8 @@
             "renderer": {
               "renderMode": "billboard",
               "texture": {
-                "pack": "VFX_Core",
-                "assetId": "T_FX_Sunshine_02"
+                "pack": "vfx",
+                "assetId": "t_fx_sunshine_02"
               },
               "blending": "additive",
               "premultipliedAlpha": false,

@@ -1,6 +1,7 @@
 import * as THREE from "three"
 import { Sky } from "three-stdlib"
-import { AssetManager, GameObject, RundotGameAPI, VenusGame, MeshRenderer } from "@series-inc/rundot-3d-engine"
+import { AssetManager, GameObject, VenusGame, MeshRenderer } from "@series-inc/rundot-3d-engine"
+import RundotGameAPI from "@series-inc/rundot-game-sdk/api"
 import {
     AudioSystem,
     DynamicNavSystem,
@@ -1066,27 +1067,27 @@ export class BurgerShopDemo extends VenusGame {
 
         // TODO: Character pack should be added to prefab mounts instead of loading manually
         // This is a temporary solution until characters are properly integrated into the prefab system
-        await stowkit.loadPack("Character", "Character.stow")
+        await stowkit.loadPack("character", "character.stow")
 
         // Load characters for AssetManager registration (needed for SkeletalRenderer)
         const characterScale = 1.2 // Exported at 100x size
         const characterNames = [
-            "Character_Main",
-            "Character_Employee_01",
-            "Character_Cashier",
-            "Character_F_DressCardigan_Blue",
-            "Character_F_DressCardigan_Green",
-            "Character_F_DressCardigan_Pink",
-            "Character_F_DressCardigan_Teal",
-            "Character_F_ManagerHR_Blue",
-            "Character_F_ManagerHR_Green",
-            "Character_F_ManagerHR_Maroon",
-            "Character_F_ManagerHR_Red",
-            "Character_M_SuitCasual50s_Brown",
-            "Character_M_SuitCasual50s_Green",
-            "Character_M_SuitCasual50s_Navy",
-            "Character_M_SuitCasual50s_Pink",
-            "Character_M_SuitCasual50s_Tan",
+            "character_main_character",
+            "character_employee_01",
+            "character_cashier",
+            "character_f_dresscardigan_blue",
+            "character_f_dresscardigan_green",
+            "character_f_dresscardigan_pink",
+            "character_f_dresscardigan_teal",
+            "character_f_managerhr_blue",
+            "character_f_managerhr_green",
+            "character_f_managerhr_maroon",
+            "character_f_managerhr_red",
+            "character_m_suitcasual50_brown",
+            "character_m_suitcasual50_green",
+            "character_m_suitcasual50_navy",
+            "character_m_suitcasual50_pink",
+            "character_m_suitcasual50_tan",
         ]
         for (const name of characterNames) {
             const mesh = await stowkit.getSkinnedMesh(name, characterScale)
@@ -1101,7 +1102,7 @@ export class BurgerShopDemo extends VenusGame {
             "anim_idle_to_toilet", "anim_throw", "anim_interact_kiosk"
         ]
         for (const name of animationNames) {
-            await stowkit.getAnimation(name, "Character_Employee_01")
+            await stowkit.getAnimation(name, "character_cashier")
         }
 
         // Load and map audio to banks

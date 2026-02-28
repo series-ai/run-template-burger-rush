@@ -7,8 +7,8 @@
   },
   "mounts": [
     {
-      "alias": "core",
-      "path": "Core.stow"
+      "alias": "burgerrush",
+      "path": "burgershop.stow"
     }
   ],
   "root": {
@@ -81,8 +81,8 @@
               {
                 "type": "stow_mesh",
                 "mesh": {
-                  "pack": "core",
-                  "assetId": "restaurant_display_Prop_ShakeMachine_L1"
+                  "pack": "burgerrush",
+                  "assetId": "restaurant_display_prop_shakemachine_l1"
                 }
               }
             ]
@@ -111,8 +111,8 @@
               {
                 "type": "stow_mesh",
                 "mesh": {
-                  "pack": "core",
-                  "assetId": "restaurant_display_Prop_Prep_Station"
+                  "pack": "burgerrush",
+                  "assetId": "restaurant_display_prop_prep_station"
                 },
                 "castShadow": true,
                 "receiveShadow": true

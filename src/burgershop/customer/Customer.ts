@@ -396,12 +396,12 @@ export class Customer extends Component {
 
         // Randomly pick between customer models
         const customerModels = [
-            "stowkit://Character_F_DressCardigan_Blue",
-            "stowkit://Character_F_DressCardigan_Green",
-            "stowkit://Character_F_DressCardigan_Pink",
-            "stowkit://Character_M_SuitCasual50s_Brown",
-            "stowkit://Character_M_SuitCasual50s_Navy",
-            "stowkit://Character_M_SuitCasual50s_Tan",
+            "stowkit://character_f_dresscardigan_blue",
+            "stowkit://character_f_dresscardigan_green",
+            "stowkit://character_f_dresscardigan_pink",
+            "stowkit://character_m_suitcasual50_brown",
+            "stowkit://character_m_suitcasual50_navy",
+            "stowkit://character_m_suitcasual50_tan",
         ]
         const randomModel = customerModels[Math.floor(Math.random() * customerModels.length)]
         this.characterDisplay = new BurgerCharacterDisplay(randomModel)

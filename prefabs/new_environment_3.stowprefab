@@ -7,8 +7,8 @@
   },
   "mounts": [
     {
-      "alias": "core",
-      "path": "Core.stow"
+      "alias": "burgerrush",
+      "path": "burgershop.stow"
     }
   ],
   "root": {
@@ -58,8 +58,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_Wall_Kitchen"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_wall_kitchen"
             }
           }
         ]
@@ -88,8 +88,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_Layout"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_layout"
             }
           }
         ]
@@ -118,8 +118,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_Wall_DoorFrames"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_wall_doorframes"
             }
           }
         ]
@@ -148,8 +148,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Upgrade_Bathroom1"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_upgrade_bathroom1"
             }
           }
         ]
@@ -178,8 +178,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Upgrade_HR_Room"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_upgrade_hr_room"
             }
           }
         ]
@@ -208,8 +208,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Upgrade_FarCorner"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_upgrade_farcorner"
             }
           }
         ]
@@ -238,8 +238,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Upgrade_Bathroom2"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_upgrade_bathroom2"
             }
           }
         ]
@@ -268,8 +268,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Upgrade_Shakes"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_upgrade_shakes"
             }
           }
         ]
@@ -298,8 +298,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Upgrade_UpgradeRoom"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_upgrade_upgraderoom"
             }
           }
         ]

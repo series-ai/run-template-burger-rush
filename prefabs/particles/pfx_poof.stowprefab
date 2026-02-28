@@ -7,8 +7,8 @@
   },
   "mounts": [
     {
-      "alias": "VFX_Core",
-      "path": "shared3d/VFX/VFX_Core.stow"
+      "alias": "vfx",
+      "path": "vfx.stow"
     }
   ],
   "root": {
@@ -148,8 +148,8 @@
         },
         "renderer": {
           "texture": {
-            "pack": "VFX_Core",
-            "assetId": "T_FX_Poof_01"
+            "pack": "vfx",
+            "assetId": "t_fx_poof_01"
           },
           "blending": "additive",
           "premultipliedAlpha": false,
@@ -346,8 +346,8 @@
             },
             "renderer": {
               "texture": {
-                "pack": "VFX_Core",
-                "assetId": "T_FX_Ring_01"
+                "pack": "vfx",
+                "assetId": "t_fx_ring_01"
               },
               "blending": "additive",
               "premultipliedAlpha": false,

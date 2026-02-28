@@ -7,12 +7,12 @@
   },
   "mounts": [
     {
-      "alias": "VFX_Core",
-      "path": "shared3d/VFX/VFX_Core.stow"
+      "alias": "vfx",
+      "path": "vfx.stow"
     },
     {
-      "alias": "core",
-      "path": "Core.stow"
+      "alias": "burgerrush",
+      "path": "burgershop.stow"
     }
   ],
   "root": {
@@ -85,8 +85,8 @@
               {
                 "type": "stow_mesh",
                 "mesh": {
-                  "pack": "core",
-                  "assetId": "restaurant_display_Prop_Prep_Station"
+                  "pack": "burgerrush",
+                  "assetId": "restaurant_display_prop_prep_station"
                 }
               }
             ]
@@ -115,8 +115,8 @@
               {
                 "type": "stow_mesh",
                 "mesh": {
-                  "pack": "core",
-                  "assetId": "restaurant_display_Prop_Grill_L1"
+                  "pack": "burgerrush",
+                  "assetId": "restaurant_display_prop_grill_l1"
                 }
               }
             ]

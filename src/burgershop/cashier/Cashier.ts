@@ -25,7 +25,7 @@ export class Cashier extends Component {
 
     private setupCharacterComponents(): void {
         // 1. Create character display first
-        this.characterDisplay = new BurgerCharacterDisplay("stowkit://Character_Cashier")
+        this.characterDisplay = new BurgerCharacterDisplay("stowkit://character_cashier")
         this.gameObject.addComponent(this.characterDisplay)
     
         // 2. Create character animator (finds display automatically)

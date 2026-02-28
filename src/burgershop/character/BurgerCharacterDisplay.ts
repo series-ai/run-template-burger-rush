@@ -15,7 +15,7 @@ export class BurgerCharacterDisplay extends Component {
   private characterPath: string
   private blobShadow: BlobShadow | null = null
 
-  constructor(characterPath: string = "stowkit://Character_Employee_01") {
+  constructor(characterPath: string = "stowkit://character_employee_01") {
     super()
     this.characterPath = characterPath
   }

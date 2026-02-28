@@ -7,12 +7,12 @@
   },
   "mounts": [
     {
-      "alias": "core",
-      "path": "Core.stow"
+      "alias": "burgerrush",
+      "path": "burgershop.stow"
     },
     {
-      "alias": "core",
-      "path": "Core.stow"
+      "alias": "burgerrush",
+      "path": "burgershop.stow"
     }
   ],
   "root": {
@@ -62,8 +62,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Prop_Bathroom_Stall_Dirty"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_prop_bathroom_stall_dirty"
             }
           }
         ],
@@ -93,8 +93,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Prop_Bathroom_Stall"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_prop_bathroom_stall"
             }
           }
         ]
@@ -146,8 +146,8 @@
               {
                 "type": "stow_mesh",
                 "mesh": {
-                  "pack": "core",
-                  "assetId": "restaurant_display_Prop_Bathroom_StallDoor"
+                  "pack": "burgerrush",
+                  "assetId": "restaurant_display_prop_bathroom_stalldoor"
                 }
               }
             ]

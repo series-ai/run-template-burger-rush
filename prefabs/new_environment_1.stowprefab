@@ -7,8 +7,8 @@
   },
   "mounts": [
     {
-      "alias": "core",
-      "path": "Core.stow"
+      "alias": "burgerrush",
+      "path": "burgershop.stow"
     }
   ],
   "root": {
@@ -58,8 +58,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_Wall_Kitchen"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_wall_kitchen"
             }
           }
         ]
@@ -88,8 +88,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_Layout"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_layout"
             }
           }
         ]
@@ -118,8 +118,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_Wall_Back_Closed"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_wall_back_closed"
             }
           }
         ]
@@ -148,8 +148,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_Wall_DoorFrames"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_wall_doorframes"
             }
           }
         ]
@@ -178,8 +178,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_Wall_SelfService_Unlocked"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_wall_selfservice_unlocked"
             }
           }
         ]
@@ -254,8 +254,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Upgrade_Wall_Bathroom"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_upgrade_wall_bathroom"
             }
           }
         ]
@@ -714,8 +714,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Store_BackLot_Back"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_store_backlot_back"
             }
           }
         ]
@@ -744,8 +744,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Store_BackLot_Side"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_store_backlot_side"
             },
             "castShadow": false,
             "receiveShadow": false
@@ -776,8 +776,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Dumpsters"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_dumpsters"
             }
           }
         ]

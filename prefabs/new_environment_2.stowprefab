@@ -7,8 +7,8 @@
   },
   "mounts": [
     {
-      "alias": "core",
-      "path": "Core.stow"
+      "alias": "burgerrush",
+      "path": "burgershop.stow"
     }
   ],
   "root": {
@@ -58,8 +58,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_Wall_Kitchen"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_wall_kitchen"
             }
           }
         ]
@@ -88,8 +88,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_Layout"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_layout"
             }
           }
         ]
@@ -118,8 +118,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_Wall_DoorFrames"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_wall_doorframes"
             }
           }
         ]
@@ -148,8 +148,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Upgrade_Bathroom1"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_upgrade_bathroom1"
             }
           }
         ]
@@ -178,8 +178,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Upgrade_Bathroom_WallCap"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_upgrade_bathroom_wallcap"
             }
           }
         ]
@@ -208,8 +208,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Upgrade_HR_Room"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_upgrade_hr_room"
             }
           }
         ]
@@ -238,8 +238,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Upgrade_UpgradeRoom"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_upgrade_upgraderoom"
             }
           }
         ]
@@ -268,8 +268,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Upgrade_Wall_Bathroom"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_upgrade_wall_bathroom"
             }
           }
         ]
@@ -298,8 +298,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_Wall_SelfService_Unlocked"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_wall_selfservice_unlocked"
             }
           }
         ]
@@ -328,8 +328,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Upgrade_Wall_Bathroom"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_upgrade_wall_bathroom"
             }
           }
         ]
@@ -1103,8 +1103,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Store_BackLot_Side"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_store_backlot_side"
             },
             "castShadow": false,
             "receiveShadow": false
@@ -1135,8 +1135,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Dumpsters"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_dumpsters"
             }
           }
         ]

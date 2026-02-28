@@ -1,5 +1,6 @@
 import * as THREE from "three"
-import { Component, GameObject, RundotGameAPI } from "@series-inc/rundot-3d-engine"
+import { Component, GameObject } from "@series-inc/rundot-3d-engine"
+import RundotGameAPI from "@series-inc/rundot-game-sdk/api"
 import { StowKitSystem, ParticleSystemPrefabComponent, PrefabLoader, PlayAudioOneShot2D, Main2DAudioBank } from "@series-inc/rundot-3d-engine/systems"
 import { PurchaseArea, UnlockManager, IUnlockable, CostManager } from "@game/money"
 import { Cashier } from "./Cashier"

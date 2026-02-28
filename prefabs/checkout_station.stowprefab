@@ -7,12 +7,12 @@
   },
   "mounts": [
     {
-      "alias": "core",
-      "path": "Core.stow"
+      "alias": "burgerrush",
+      "path": "burgershop.stow"
     },
     {
-      "alias": "VFX_Core",
-      "path": "shared3d/VFX/VFX_Core.stow"
+      "alias": "vfx",
+      "path": "vfx.stow"
     }
   ],
   "root": {
@@ -85,8 +85,8 @@
               {
                 "type": "stow_mesh",
                 "mesh": {
-                  "pack": "core",
-                  "assetId": "restaurant_display_Prop_Shakes_Counter"
+                  "pack": "burgerrush",
+                  "assetId": "restaurant_display_prop_shakes_counter"
                 }
               },
               {

@@ -30,7 +30,7 @@ export class HumanoidVisual extends Component {
 
   protected onCreate(): void {
     const fbxPath =
-      this.options.fbxPath ?? "stowkit://Character_Employee_01"
+      this.options.fbxPath ?? "stowkit://character_employee_01"
     CharacterModelCache.preload(fbxPath)
       .then(async () => {
         const object = CharacterModelCache.getClone(fbxPath)

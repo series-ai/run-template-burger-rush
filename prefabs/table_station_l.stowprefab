@@ -7,12 +7,12 @@
   },
   "mounts": [
     {
-      "alias": "core",
-      "path": "Core.stow"
+      "alias": "burgerrush",
+      "path": "burgershop.stow"
     },
     {
-      "alias": "core",
-      "path": "Core.stow"
+      "alias": "burgerrush",
+      "path": "burgershop.stow"
     }
   ],
   "root": {
@@ -108,8 +108,8 @@
                   {
                     "type": "stow_mesh",
                     "mesh": {
-                      "pack": "core",
-                      "assetId": "restaurant_display_Prop_Base_Table"
+                      "pack": "burgerrush",
+                      "assetId": "restaurant_display_prop_base_table"
                     }
                   },
                   {
@@ -167,8 +167,8 @@
                   {
                     "type": "stow_mesh",
                     "mesh": {
-                      "pack": "core",
-                      "assetId": "restaurant_display_Prop_Base_Chair"
+                      "pack": "burgerrush",
+                      "assetId": "restaurant_display_prop_base_chair"
                     }
                   }
                 ]
@@ -222,8 +222,8 @@
                   {
                     "type": "stow_mesh",
                     "mesh": {
-                      "pack": "core",
-                      "assetId": "restaurant_display_Prop_Base_Chair"
+                      "pack": "burgerrush",
+                      "assetId": "restaurant_display_prop_base_chair"
                     }
                   }
                 ]

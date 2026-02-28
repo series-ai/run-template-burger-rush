@@ -7,8 +7,8 @@
   },
   "mounts": [
     {
-      "alias": "core",
-      "path": "Core.stow"
+      "alias": "burgerrush",
+      "path": "burgershop.stow"
     }
   ],
   "root": {
@@ -35,8 +35,8 @@
       {
         "type": "stow_mesh",
         "mesh": {
-          "pack": "core",
-          "assetId": "restaurant_display_Prop_Trash_2"
+          "pack": "burgerrush",
+          "assetId": "restaurant_display_prop_trash_2"
         }
       }
     ]

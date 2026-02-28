@@ -7,8 +7,8 @@
   },
   "mounts": [
     {
-      "alias": "core",
-      "path": "Core.stow"
+      "alias": "burgerrush",
+      "path": "burgershop.stow"
     }
   ],
   "root": {
@@ -58,8 +58,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Store_GroundSign"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_store_groundsign"
             }
           }
         ]
@@ -88,8 +88,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Store_Exterior"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_store_exterior"
             }
           }
         ]
@@ -118,8 +118,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Store_Exterior_Roof"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_store_exterior_roof"
             },
             "castShadow": true,
             "receiveShadow": false
@@ -150,8 +150,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Prop_Awning_RedYellow_02"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_prop_awning_redyellow_02"
             }
           }
         ]
@@ -180,8 +180,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Prop_Awning_RedYellow_03"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_prop_awning_redyellow_03"
             }
           }
         ]
@@ -210,8 +210,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Prop_Awning_RedYellow_01"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_prop_awning_redyellow_01"
             }
           }
         ]
@@ -332,8 +332,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_DoorL"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_doorl"
             }
           }
         ]
@@ -362,8 +362,8 @@
           {
             "type": "stow_mesh",
             "mesh": {
-              "pack": "core",
-              "assetId": "restaurant_display_Base_DoorR"
+              "pack": "burgerrush",
+              "assetId": "restaurant_display_base_doorr"
             }
           }
         ]
