@@ -3,6 +3,7 @@ import { resolve } from "path"
 import checker from "vite-plugin-checker"
 import wasm from "vite-plugin-wasm"
 import topLevelAwait from "vite-plugin-top-level-await"
+import { rundotGameLibrariesPlugin } from "@series-inc/rundot-game-sdk/vite"
 
 export default defineConfig(() => ({
   // Use relative paths - works everywhere including GitHub Pages
@@ -77,6 +78,7 @@ export default defineConfig(() => ({
   // Copy public assets to build directory
   publicDir: "public",
   plugins: [
+      rundotGameLibrariesPlugin(),
       wasm(),
       topLevelAwait(),
       // TypeScript checking disabled - d.ts declaration issues cause false errors
